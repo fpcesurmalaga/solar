@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{bc8b34e5-fe1a-4dd7-be36-e6b69000a409}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vgj_ordencompra" select="1" icon="1" preview="1">
+        <row name="result" id="vgj_ordenescomprasid">
+          <cell name="vgj_ordencompra" width="300" />
+          <cell name="vgj_proveedor" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="vgj_ordenescompras">
+          <attribute name="vgj_ordenescomprasid" />
+          <attribute name="vgj_ordencompra" />
+          <order attribute="vgj_ordencompra" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="vgj_ordencompra" operator="like" value="{0}" />
+          </filter>
+          <attribute name="vgj_proveedor" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Búsqueda rápida de Ordenes Compras activos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,45 @@
+var validarEntregas = validarEntregas || {};
+(function () {
+    this.onSave = async function (executionContext) {
+        executionContext.getEventArgs().disableAsyncTimeout();
+        executionContext.getEventArgs().preventDefaultOnError();
+         
+        const formContext = executionContext.getFormContext();
+        var pedidoAtributos= formContext.getAttribute("vgj_pedido").getValue();
+    var pedidoID = pedidoAtributos[0].id.replace('{','').replace('}','')
+
+    
+    console.log(pedidoID)
+
+
+   
+    var data= {
+        "pedidoID": pedidoID
+    };
+
+    try {
+
+        const response = await fetch("https://prod-110.westeurope.logic.azure.com:443/workflows/8fc1a36ffd5247c7a276e86c5831f64d/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=14g0N57kXUG9ao4pGI2Quv0WrYW1HsEMq_77jDBrfnM",
+            {
+                "method" : "POST",
+                "headers":{
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(data)
+            }
+        );
+        if(
+            response.status === 500
+        ){
+            formContext.ui.setFormNotification("La cantidad de la entrega no puede ser mayor que las unidades totales del pedido", "ERROR", "1");
+            executionContext.getEventArgs().preventDefault();
+
+        }
+        console.log("Respuesta: " + response)
+        console.log("Flow call finshed ok");
+
+    }catch (error){
+        console.log("Flow call finished with error");
+        
+    };
+}}).apply(validarEntregas);

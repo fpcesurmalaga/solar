@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5d8eb2b4-3724-471d-86c2-b45ff820850f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vgj_name" select="1" icon="1" preview="1">
+        <row name="result" id="vgj_articuloclienteid">
+          <cell name="vgj_articulo" width="100" />
+          <cell name="vgj_planificado" width="104" />
+          <cell name="vgj_primeraentrega" width="132" />
+          <cell name="vgj_ultimaentrega" width="126" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="vgj_articulocliente">
+          <attribute name="vgj_articuloclienteid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="vgj_articulo" />
+          <attribute name="vgj_planificado" />
+          <attribute name="vgj_primeraentrega" />
+          <attribute name="vgj_ultimaentrega" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Artículos Cliente activo" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

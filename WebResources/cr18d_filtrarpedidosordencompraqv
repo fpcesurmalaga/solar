@@ -1,0 +1,32 @@
+function filtrarPedidos(executionContext) {
+    var formContext = executionContext.getFormContext();
+    var quickViewControl = formContext.ui.quickForms.get("QuickViewAlmacen");
+    
+    if (quickViewControl.isLoaded()) {
+        var campoOrdenCompra = quickViewControl.getControl("vgj_ordencompra");
+        
+        if (campoOrdenCompra) {
+            var ordenCompra = campoOrdenCompra.getAttribute().getValue();
+            
+            if (ordenCompra !== null && ordenCompra.length > 0) {
+                var ordenCompraId = ordenCompra[0].id;
+                var subgridPedidos = formContext.getControl("subgridPedidos");
+                
+                var fetchXml = "<filter type='and'><condition attribute='vgj_ordencompra' operator='eq' value='" + ordenCompraId + "'/></filter>";
+                
+                subgridPedidos.setFilterXml("<fetch><entity name='vgj_pedidos'><filter>" + fetchXml + "</filter></entity></fetch>");
+                subgridPedidos.refresh();
+            } else {
+                console.log("El campo de orden de compra está vacío.");
+                var subgridPedidos = formContext.getControl("subgridPedidos");
+                subgridPedidos.setFilterXml("<fetch><entity name='vgj_pedidos'><filter type='and'><condition attribute='vgj_ordencompra' operator='eq' value='00000000-0000-0000-0000-000000000000'/></filter></entity></fetch>");
+                subgridPedidos.refresh();
+            }
+        } else {
+            console.log("No se encontró el campo de orden de compra en el Quick View.");
+        }
+    } else {
+        console.log("El Quick View no ha terminado de cargar.");
+        setTimeout(filtrarPedidos, 1000, executionContext);
+    }
+}

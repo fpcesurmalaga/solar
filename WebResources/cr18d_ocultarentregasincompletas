@@ -1,0 +1,17 @@
+function ocultarSeccionSiSubgridVacio(executionContext) {
+    var formContext = executionContext.getFormContext();
+    
+    setTimeout(function() {
+        var subgridControl = formContext.getControl("sudGridImcompletas");
+        if (subgridControl) {
+            var gridControl = subgridControl.getGrid();
+            var totalRecordCount = gridControl.getTotalRecordCount();
+            
+            if (totalRecordCount === 0) {
+                formContext.ui.tabs.get("generalAlmacen").sections.get("sectionIncompletas").setVisible(false);
+            } else {
+                formContext.ui.tabs.get("generalAlmacen").sections.get("sectionIncompletas").setVisible(true);
+            }
+        }
+    }, 2000);
+}

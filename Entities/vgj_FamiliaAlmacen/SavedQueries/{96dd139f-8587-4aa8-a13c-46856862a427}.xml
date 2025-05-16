@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{96dd139f-8587-4aa8-a13c-46856862a427}</savedqueryid>
+    <layoutxml>
+      <grid name="vgj_familiaalmacens" jump="vgj_familiaespanol" select="1" icon="1" preview="1">
+        <row name="vgj_familiaalmacen" id="vgj_familiaalmacenid">
+          <cell name="vgj_familiaespanol" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="vgj_familiaalmacen">
+          <attribute name="vgj_familiaalmacenid" />
+          <attribute name="vgj_familiaespanol" />
+          <attribute name="createdon" />
+          <order attribute="vgj_familiaespanol" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Vista asociada de Familia Almacén" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

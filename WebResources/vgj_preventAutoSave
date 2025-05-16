@@ -1,0 +1,45 @@
+function obtenerDatoRelacionado(executionContext) {
+    var formContext = executionContext.getFormContext();
+    var eventArgs = executionContext.getEventArgs();
+    
+    // Prevenimos el guardado inicialmente
+    eventArgs.preventDefault();
+
+    var cantidadEntrega = formContext.getAttribute("vgj_cantidad").getValue();
+    var campoLookup = formContext.getAttribute("vgj_pedido").getValue();
+    
+    if (!campoLookup) {
+        // Si no hay campoLookup, permitimos el guardado
+        eventArgs.preventDefault(false);
+        return;
+    }
+
+    var entidadRelacionadaId = campoLookup[0].id;
+    var nombreEntidad = campoLookup[0].entityType;
+  
+    Xrm.WebApi.retrieveRecord(nombreEntidad, entidadRelacionadaId, "?$select=vgj_unidadesentregadas,vgj_cantidad")
+        .then(function(resultado) {
+            var valorUnidadesEntregadas = resultado["vgj_unidadesentregadas"];
+            var valorCantitdadTotal = resultado["vgj_cantidad"];
+            console.log("Valor unidades entregadas:", valorUnidadesEntregadas);
+            console.log("Valor cantidad total:", valorCantitdadTotal);
+
+            if ((cantidadEntrega + valorUnidadesEntregadas) > valorCantitdadTotal) {
+                formContext.ui.setFormNotification("La cantidad de la entrega no puede ser mayor que las unidades totales del pedido", "ERROR", "1");
+                // Mantenemos la prevención del guardado
+                return Promise.reject("Cantidad inválida");
+            } else {
+                // La condición se cumple, permitimos el guardado
+                formContext.ui.clearFormNotification("1");
+                eventArgs.preventDefault(false);
+                return Promise.resolve();
+            }
+        })
+        .then(function() {
+            // Si llegamos aquí y el guardado está permitido, el formulario se guardará automáticamente
+        })
+        .catch(function(error) {
+            console.error("Error o validación fallida:", error);
+            // El guardado sigue prevenido
+        });
+}

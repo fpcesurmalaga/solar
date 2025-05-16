@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{33de974b-aa91-4c52-8363-747ba9525018}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vgj_nuevacolumna" select="1" icon="1" preview="1">
+        <row name="result" id="vgj_checklistentregaid">
+          <cell name="vgj_nuevacolumna" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="vgj_fecha" width="150" />
+          <cell name="vgj_horallegada" width="150" />
+          <cell name="vgj_iniciodescarga" width="150" />
+          <cell name="vgj_findescarga" width="150" />
+          <cell name="vgj_controlartiempoentrega" width="150" />
+          <cell name="vgj_clientebool" width="150" />
+          <cell name="vgj_suministrador" width="150" />
+          <cell name="vgj_transportista" width="150" />
+          <cell name="vgj_tractora" width="150" />
+          <cell name="vgj_remolque" width="150" />
+          <cell name="vgj_contenedor" width="150" />
+          <cell name="vgj_factura" width="150" />
+          <cell name="vgj_cmr" width="150" />
+          <cell name="vgj_blawb" width="150" />
+          <cell name="vgj_albaran" width="150" />
+          <cell name="vgj_packinglist" width="150" />
+          <cell name="vgj_planos" width="150" />
+          <cell name="vgj_certificadocalidad" width="150" />
+          <cell name="vgj_descripcioncontenido" width="150" />
+          <cell name="vgj_notascontenedor" width="150" />
+          <cell name="vgj_notasprecinto" width="150" />
+          <cell name="vgj_notasarticuloscorrectos" width="150" />
+          <cell name="vgj_notasproteccionesyanclajes" width="150" />
+          <cell name="vgj_notascalidadydimensiones" width="150" />
+          <cell name="vgj_notasembalajeadecuado" width="150" />
+          <cell name="vgj_notasestadoembalaje" width="150" />
+          <cell name="vgj_notasestadoarticulos" width="150" />
+          <cell name="vgj_observacionesgenerales" width="150" />
+          <cell name="vgj_tiempoinspeccion" width="150" />
+          <cell name="vgj_recursos" width="150" />
+          <cell name="vgj_notasinternas" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="vgj_checklistentrega">
+          <attribute name="vgj_checklistentregaid" />
+          <attribute name="vgj_nuevacolumna" />
+          <attribute name="createdon" />
+          <order attribute="vgj_nuevacolumna" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="vgj_fecha" />
+          <attribute name="vgj_horallegada" />
+          <attribute name="vgj_iniciodescarga" />
+          <attribute name="vgj_findescarga" />
+          <attribute name="vgj_controlartiempoentrega" />
+          <attribute name="vgj_clientebool" />
+          <attribute name="vgj_suministrador" />
+          <attribute name="vgj_transportista" />
+          <attribute name="vgj_tractora" />
+          <attribute name="vgj_remolque" />
+          <attribute name="vgj_contenedor" />
+          <attribute name="vgj_factura" />
+          <attribute name="vgj_cmr" />
+          <attribute name="vgj_blawb" />
+          <attribute name="vgj_albaran" />
+          <attribute name="vgj_packinglist" />
+          <attribute name="vgj_planos" />
+          <attribute name="vgj_certificadocalidad" />
+          <attribute name="vgj_descripcioncontenido" />
+          <attribute name="vgj_notascontenedor" />
+          <attribute name="vgj_notasprecinto" />
+          <attribute name="vgj_notasarticuloscorrectos" />
+          <attribute name="vgj_notasproteccionesyanclajes" />
+          <attribute name="vgj_notascalidadydimensiones" />
+          <attribute name="vgj_notasembalajeadecuado" />
+          <attribute name="vgj_notasestadoembalaje" />
+          <attribute name="vgj_notasestadoarticulos" />
+          <attribute name="vgj_observacionesgenerales" />
+          <attribute name="vgj_tiempoinspeccion" />
+          <attribute name="vgj_recursos" />
+          <attribute name="vgj_notasinternas" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Check Lists Entrega activo" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

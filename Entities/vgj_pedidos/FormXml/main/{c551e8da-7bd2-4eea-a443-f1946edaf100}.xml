@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c551e8da-7bd2-4eea-a443-f1946edaf100}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{4949d09f-cefb-48e3-aac7-71cdcf58bc23}" IsUserDefined="1" name="generalPedidos">
+          <labels>
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="section_ordenCompra" id="f4c95f74-781d-474d-9522-3bc7c539da5c" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Orden de Compra" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b06ee923-67f4-4fa4-83dd-c81ecbb536db}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{71d57151-4b42-4226-8809-f4e2c5776b3c}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{e5068d15-d274-42a8-bc49-b8f10586f809}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="New QV control 1740569686240" languagecode="3082" />
+                        </labels>
+                        <control id="QuickviewControl1740569686240" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="vgj_ordencompra">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="vgj_ordenescompras"&gt;ce1a406b-13fa-474b-9ef1-3133a177b0b1&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell locklevel="0" id="{ddbe62c6-993f-433c-9bf1-cdace89b5e26}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{3cce553e-7587-4cf2-a07b-fa129722144b}" columns="111" name="detallesPedidoCrear" celllabelposition="Left" locklevel="0" labelwidth="130" celllabelalignment="Left" visible="true">
+                  <labels>
+                    <label description="Introducir datos del pedido" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{975dd90a-3514-4a2e-a0d3-b8e8181e4cf0}" colspan="1" rowspan="1" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Partida Presupuestaria" languagecode="3082" />
+                          <label description="Partida Presupuestaria" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_partidapresupuestaria" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vgj_partidapresupuestaria" uniqueid="{cd44b6c3-a905-1987-e9ce-caa58a140b23}" disabled="false" />
+                      </cell>
+                      <cell id="{a06a3c68-26a2-7ac9-a5c7-77d6b0895626}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Incoterm" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_incoterm" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vgj_incoterm" disabled="false" />
+                      </cell>
+                      <cell id="{9df2c7ce-e4db-453e-80ef-ffb13c556e53}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Revisión" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_revision" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="vgj_revision" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{280fa1e2-d5fa-41ba-b0a9-6d4901355bbf}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Artículo" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_articulo" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vgj_articulo" disabled="false" />
+                      </cell>
+                      <cell id="{98d51d52-f6f8-41e5-9937-a512bdc6cd17}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Precio" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_precio" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="vgj_precio" disabled="false" />
+                      </cell>
+                      <cell id="{544f3e1e-863a-46d0-99e0-724796e18c50}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Cantidad" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_cantidad" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="vgj_cantidad" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a48f8052-a321-4077-bd4f-cc2a049c2ecc}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Importe (EUR)" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_importeeur" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="vgj_importeeur" disabled="false" />
+                      </cell>
+                      <cell id="{9b3e712b-2015-446b-b2d5-d65a92166161}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Orden Compra" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_ordencompra" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vgj_ordencompra" disabled="false" uniqueid="{99192758-e027-3423-a92a-4031b040dd50}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{55ce3208-8219-4a24-a6d3-259cedf90053}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{9289f354-4d82-419f-ba71-36e94aec11e8}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                      <cell id="{c2aef32c-c98c-4778-81de-5f9ef10cafd7}" visible="false">
+                        <labels>
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="pedidosArticulos" id="2ee52b18-0978-42af-b11f-b52a05b374ba" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="false">
+                  <labels>
+                    <label description="Seleccionar artículos para el pedido" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a4c72105-f7fb-4243-9842-df8089d4756a}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{cf3587d9-29b4-4638-8f3e-13a09d61ed92}" rowspan="4" colspan="1" auto="false">
+                        <labels>
+                          <label description="Artículos disponibles" languagecode="3082" />
+                          <label description="Artículos" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="subGridArticulos" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName />
+                            <TargetEntityType>vgj_articulos</TargetEntityType>
+                            <ViewId>{767C2311-62AF-4A77-B579-D0479A1A21D3}</ViewId>
+                            <ViewIds>{767C2311-62AF-4A77-B579-D0479A1A21D3}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="pedidosArticulosAdd" id="974a5e4e-436f-4281-860e-46e17060500f" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="false">
+                  <labels>
+                    <label description="Completar datos de artículos" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{427c0ee0-d770-4545-bf62-5ca12546520f}" colspan="1" rowspan="6" auto="true">
+                        <labels>
+                          <label description="Artículos añadidos" languagecode="3082" />
+                          <label description="Artículos" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="sudgridPedidos" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{db722d4a-d47d-4119-b778-1202a9e43b5c}">
+                          <parameters>
+                            <TargetEntityType>vgj_pedidos</TargetEntityType>
+                            <ViewId>{93A0A0E9-5EFE-EF11-BAE3-6045BD9DD2BC}</ViewId>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <IsUserView>false</IsUserView>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <ViewIds>{8EE1308B-1409-4A38-B20D-BF6B3F5AEA31},{66A30C8A-790E-47BE-A988-57CCA330E2E6},{93A0A0E9-5EFE-EF11-BAE3-6045BD9DD2BC}</ViewIds>
+                            <AutoExpand>Auto</AutoExpand>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{6d5d0c21-e33e-4717-ac1a-02a7cee5c2f2}" rowspan="4" colspan="1" auto="false">
+                        <labels>
+                          <label description="New SG control 1741684199436" languagecode="3082" />
+                          <label description="Artículos" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName />
+                            <TargetEntityType>vgj_pedidos</TargetEntityType>
+                            <ViewId>{8EE1308B-1409-4A38-B20D-BF6B3F5AEA31}</ViewId>
+                            <ViewIds>{8EE1308B-1409-4A38-B20D-BF6B3F5AEA31}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="pedidosEntregas" id="7a726207-91dc-4a9c-971c-79e1936cece7" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="false">
+                  <labels>
+                    <label description="Entregas" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{457262df-8262-4bbf-99ac-521e84a9827a}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{4fc2bba1-81c9-4b30-ab84-38e3b10cdcac}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1740401361857" languagecode="3082" />
+                          <label description="Entregas" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>vgj_entrega_pedido_vgj_pedidos</RelationshipName>
+                            <TargetEntityType>vgj_entrega</TargetEntityType>
+                            <ViewId>{31324356-8DE3-4693-B8BB-D716690271CC}</ViewId>
+                            <ViewIds>{31324356-8DE3-4693-B8BB-D716690271CC}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{5ed66675-5f04-4297-97f3-b90496b15fbc}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{630de70f-2e15-461e-9bdb-be8e09491a72}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{b4430286-461b-427a-a4ab-37c876b24e9f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{ea1b71a9-2b8b-4bbe-b721-875d6bc52f27}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{834eaea4-b91c-4d77-bb1b-56031d4962a1}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{1eee8367-e10d-48d8-8e5e-b5aacf957d4f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{a6264101-68b3-42bd-bd74-319f2d4faa53}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{71edc5c2-289e-4ae6-8a50-8e02617f18ac}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="3082" Text="Común" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="3082" Text="Ventas" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="3082" Text="Servicio" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="3082" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="3082" Text="Sesiones de proceso" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{db722d4a-d47d-4119-b778-1202a9e43b5c}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters>
+              <TargetEntityType>vgj_pedidos</TargetEntityType>
+              <ViewId>{93A0A0E9-5EFE-EF11-BAE3-6045BD9DD2BC}</ViewId>
+              <EnableViewPicker>false</EnableViewPicker>
+              <IsUserView>false</IsUserView>
+              <RecordsPerPage>4</RecordsPerPage>
+            </parameters>
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters>
+              <TargetEntityType>vgj_pedidos</TargetEntityType>
+              <ViewId>{93A0A0E9-5EFE-EF11-BAE3-6045BD9DD2BC}</ViewId>
+              <EnableViewPicker>false</EnableViewPicker>
+              <IsUserView>false</IsUserView>
+              <RecordsPerPage>4</RecordsPerPage>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{93A0A0E9-5EFE-EF11-BAE3-6045BD9DD2BC}</ViewId>
+                <TargetEntityType>vgj_pedidos</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName />
+                <FilteredViewIds />
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">yes</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{93A0A0E9-5EFE-EF11-BAE3-6045BD9DD2BC}</ViewId>
+                <TargetEntityType>vgj_pedidos</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName />
+                <FilteredViewIds />
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">yes</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{93A0A0E9-5EFE-EF11-BAE3-6045BD9DD2BC}</ViewId>
+                <TargetEntityType>vgj_pedidos</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName />
+                <FilteredViewIds />
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">yes</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <formLibraries>
+        <Library name="cr18d_mostrarseccionarticulos" libraryUniqueId="{2a7a97ea-6f3f-42e0-9f1c-58d1bc7c69b1}" />
+        <Library name="cr18d_mostrarEntregas" libraryUniqueId="{029fe7e1-d1d1-42d1-840d-ca8f6da4a4f1}" />
+        <Library name="cr18d_mostrarPedidoCreacion" libraryUniqueId="{d7e9d529-7a33-43ea-9ef5-4d2c8453ad52}" />
+        <Library name="cr18d_mostrarcampospedidoedicion" libraryUniqueId="{eedfe530-6325-4c38-bc88-d1be0c607d7d}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="vgj_incoterm">
+          <Handlers>
+            <Handler functionName="mostrarSeccionArticulos" libraryName="cr18d_mostrarseccionarticulos" handlerUniqueId="{91ba0cc5-cc57-456b-8ca3-e9c9f1c79cd8}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="mostrarEntregas" libraryName="cr18d_mostrarseccionarticulos" handlerUniqueId="{f3a54836-5718-4685-a184-c50199a61d77}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="mostrarCamposPedidoEdicion" libraryName="cr18d_mostrarseccionarticulos" handlerUniqueId="{93c71fe7-9ffa-4b3a-8e61-481c60f76f08}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="vgj_partidapresupuestaria">
+          <Handlers>
+            <Handler functionName="mostrarSeccionArticulos" libraryName="cr18d_mostrarseccionarticulos" handlerUniqueId="{d489022f-f817-48fc-90a1-47dc92a66283}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="vgj_revision">
+          <Handlers>
+            <Handler functionName="mostrarSeccionArticulos" libraryName="cr18d_mostrarseccionarticulos" handlerUniqueId="{c16e8c26-79db-40ff-88ee-e1f2c3fe2fb4}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

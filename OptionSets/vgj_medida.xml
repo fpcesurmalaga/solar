@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="vgj_medida" localizedName="Medida" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Medida" languagecode="3082" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="3082" />
+  </Descriptions>
+  <options>
+    <option value="949210010" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="D" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210009" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="H" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210008" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Kg" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210007" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="L" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210006" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="M" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210005" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="M2" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210004" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="M3" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210003" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Mes" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210002" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Sem" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210001" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Tn" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210000" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Ud" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,72 @@
+function seleccionarProveedorElmya(executionContext) {
+    console.log("Version 6");
+    var formContext = executionContext.getFormContext();
+    var opcionSeleccionada = formContext.getAttribute("vgj_tipo").getValue();
+    var campoProveedorDestino = formContext.getAttribute("vgj_proveedordestino");
+    var campoProveedorOrigen = formContext.getAttribute("vgj_proveedororigen");
+    var campoOrdenCompra = formContext.getAttribute("vgj_ordencompra");
+    console.log("Tipo seleccionado: " + opcionSeleccionada);
+    
+    campoOrdenCompra.setValue(null); // Vaciar campo orden de compra
+    
+    if (opcionSeleccionada === 949210000 || opcionSeleccionada === 949210002 || opcionSeleccionada === 949210001) { // Entrada, Salida o Traspaso
+        campoProveedorDestino.setValue(null); // Vaciar campo proveedor de destino
+        campoProveedorOrigen.setValue(null); // Vaciar campo proveedor de origen
+        
+        if (opcionSeleccionada === 949210000) { // Entrada
+            obtenerGuidProveedor("Elmya S.A.").then(
+                function success(guidProveedor) {
+                    console.log("Id Proveedor: " + guidProveedor);
+                    
+                    if (guidProveedor !== null) {
+                        campoProveedorDestino.setValue([{ id: guidProveedor, name: "Elmya S.A.", entityType: "vgj_proveedores" }]);
+                    } else {
+                        console.log("No se encontró el proveedor.");
+                    }
+                },
+                function(error) {
+                    console.error("Error al obtener el GUID del proveedor: " + error);
+                }
+            );
+        } else if (opcionSeleccionada === 949210002) { // Salida
+            obtenerGuidProveedor("Elmya S.A.").then(
+                function success(guidProveedor) {
+                    console.log("Id Proveedor: " + guidProveedor);
+                    
+                    if (guidProveedor !== null) {
+                        campoProveedorOrigen.setValue([{ id: guidProveedor, name: "Elmya S.A.", entityType: "vgj_proveedores" }]);
+                    } else {
+                        console.log("No se encontró el proveedor.");
+                    }
+                },
+                function(error) {
+                    console.error("Error al obtener el GUID del proveedor: " + error);
+                }
+            );
+        } else if (opcionSeleccionada === 949210001) { // Traspaso
+            // No se selecciona proveedor para traspaso
+        }
+    }
+}
+
+function obtenerGuidProveedor(nombreProveedor) {
+    return new Promise((resolve, reject) => {
+        var fetchXml = "?$select=vgj_idproveedor&$filter=startswith(vgj_idproveedor, '" + nombreProveedor + "')";
+
+        Xrm.WebApi.retrieveMultipleRecords("vgj_proveedores", fetchXml).then(
+            function success(result) {
+                console.log(result)
+                if (result.entities.length > 0) {
+                    resolve(result.entities[0].vgj_proveedoresid);
+                    console.log("Proveedor encontrado"); // Asegúrate de que el campo sea correcto
+                } else {
+                    resolve(null); // No se encontró el proveedor
+                    console.log("proveedor no encontrado")
+                }
+            },
+            function(error) {
+                reject(error.message);
+            }
+        );
+    });
+}

@@ -1,0 +1,9 @@
+function mostrarSeccionArticulos() {
+    var formContext = Xrm.Page;
+    var seccion = formContext.ui.tabs.get("general_ordenCompra").sections.get("section_articulos");
+    
+    
+        seccion.setVisible(true); // Mostrar la sección
+    
+    
+}

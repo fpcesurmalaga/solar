@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{65d6a9d7-d104-f011-bae3-6045bd9dd2bc}</WebResourceId>
+  <Name>vgj_creardetallesalmacen</Name>
+  <DisplayName>Crear Detalles Almacen</DisplayName>
+  <LanguageCode>0</LanguageCode>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/vgj_creardetallesalmacen65D6A9D7-D104-F011-BAE3-6045BD9DD2BC</FileName>
+</WebResource>

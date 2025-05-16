@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="vgj_tipodestino" localizedName="Tipo Destino" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Tipo Destino" languagecode="3082" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="3082" />
+  </Descriptions>
+  <options>
+    <option value="949210000" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Acopio Abierto" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210001" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Almacén Cerrado" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210002" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Campo" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210003" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Mixto" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

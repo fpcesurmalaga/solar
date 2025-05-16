@@ -1,0 +1,15 @@
+function mostrarOcultarSecciones(executionContext) {
+    var formContext = executionContext.getFormContext();
+    var campoCompleto = formContext.getAttribute("vgj_completo");
+    var tabGeneralAlmacenDetalle = formContext.ui.tabs.get("generalAlmacenDetalle");
+    var seccionCantidades = tabGeneralAlmacenDetalle.sections.get("seccionCantidades");
+    var seccionArticulos = tabGeneralAlmacenDetalle.sections.get("seccionArticulos");
+
+    if (campoCompleto && campoCompleto.getValue() === true) {
+        seccionCantidades.setVisible(true);
+        seccionArticulos.setVisible(false);
+    } else {
+        seccionCantidades.setVisible(false);
+        seccionArticulos.setVisible(true);
+    }
+}

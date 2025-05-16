@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25042.222" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25043.00214">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <WebResources />
+  <CustomControls />
+  <AppModuleSiteMaps />
+  <AppModules />
+  <EntityDataProviders />
+  <CanvasApps />
+  <appaction_appactionrule_classicrulesset>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.OutlookRenderTypeWeb!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.PrimaryEntityHasStatecode!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsInactive!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsNotActivity!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0" appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0" appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0" appactionruleid.uniquename="msdyn_Mscrm.OutlookRenderTypeWeb!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0" appactionruleid.uniquename="msdyn_Mscrm.PrimaryEntityHasStatecode!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0" appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsInactive!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0" appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsNotActivity!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.OutlookRenderTypeWeb!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.PrimaryEntityHasStatecode!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsActive!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsNotActivity!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0" appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0" appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0" appactionruleid.uniquename="msdyn_Mscrm.OutlookRenderTypeWeb!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0" appactionruleid.uniquename="msdyn_Mscrm.PrimaryEntityHasStatecode!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0" appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsActive!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0" appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsNotActivity!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Save!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.AvailableOnForm!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Save!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.CanSavePrimary!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Save!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.CanSavePrimaryEntityType!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Save!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.IsAutoSaveDisable!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Save!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Save!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.OutlookRenderTypeWeb!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Save!vgj_Logisticamodelapp!vgj_entrega!0" appactionruleid.uniquename="msdyn_Mscrm.ReadPrimaryPermission!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!1" appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!1" appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!1" appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!1" appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!1" appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!1" appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!1" appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!1" appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!1" appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!1" appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!1" appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!1" appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!1" appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!1" appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!1" appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!1" appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!2" appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!2" appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!2" appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!2" appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!2" appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!2" appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!2" appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!2" appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!2" appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!2" appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!2" appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!2" appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!2" appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!2" appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!2" appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!2" appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Delete!vgj_Logisticamodelapp!vgj_entrega!2" appactionruleid.uniquename="msdyn_Mscrm.DeleteSelectedEntityPermission!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Delete!vgj_Logisticamodelapp!vgj_entrega!2" appactionruleid.uniquename="msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Delete!vgj_Logisticamodelapp!vgj_entrega!2" appactionruleid.uniquename="msdyn_Mscrm.NotShowForManyToManyGrids!1">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Delete!vgj_Logisticamodelapp!vgj_entrega!2" appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+    <appaction_appactionrule_classicrules appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Delete!vgj_Logisticamodelapp!vgj_entrega!2" appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+      <iscustomizable>1</iscustomizable>
+    </appaction_appactionrule_classicrules>
+  </appaction_appactionrule_classicrulesset>
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="vgj_sharedcommondataserviceforapps_6c5ad">
+      <connectionreferencedisplayname>Microsoft Dataverse Logistica-6c5ad</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
+  <Languages>
+    <Language>3082</Language>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>

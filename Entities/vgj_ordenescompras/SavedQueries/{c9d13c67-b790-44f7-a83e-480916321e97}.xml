@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{c9d13c67-b790-44f7-a83e-480916321e97}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vgj_ordencompra" select="1" icon="1" preview="1">
+        <row name="result" id="vgj_ordenescomprasid">
+          <cell name="vgj_ordencompra" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="vgj_ordenescompras">
+          <attribute name="vgj_ordenescomprasid" />
+          <attribute name="vgj_ordencompra" />
+          <attribute name="createdon" />
+          <order attribute="vgj_ordencompra" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Ordenes Compras inactivo" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

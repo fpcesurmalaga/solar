@@ -1,0 +1,51 @@
+function seleccionarProveedorOrigen(executionContext) {
+    var formContext = executionContext.getFormContext();
+    var opcionSeleccionada = formContext.getAttribute("vgj_tipo").getValue();
+    var campoProveedorOrigen = formContext.getAttribute("vgj_proveedororigen");
+    var campoProveedorDestino = formContext.getAttribute("vgj_proveedordestino");
+    var campoOrdenCompra = formContext.getAttribute("vgj_ordencompra");
+    
+    var campoProveedor = opcionSeleccionada === 949210000 ? campoProveedorOrigen : campoProveedorDestino;
+    
+    if (campoOrdenCompra.getValue() === null) { // Si el campo de orden de compra está vacío
+        campoProveedor.setValue(null); // Vaciar el campo de proveedor
+    } else if (opcionSeleccionada === 949210000 || opcionSeleccionada === 949210002) { // Entrada o Salida
+        var ordenCompraId = campoOrdenCompra.getValue()[0].id;
+        
+        obtenerProveedorDeOrdenCompra(ordenCompraId).then(
+            function success(proveedorInfo) {
+                if (proveedorInfo !== null) {
+                    campoProveedor.setValue([{ id: proveedorInfo.id, name: proveedorInfo.name, entityType: "vgj_proveedores" }]);
+                } else {
+                    console.log("No se encontró el proveedor.");
+                }
+            },
+            function(error) {
+                console.error("Error al obtener el proveedor: " + error);
+            }
+        );
+    }
+}
+
+function obtenerProveedorDeOrdenCompra(ordenCompraId) {
+    return new Promise((resolve, reject) => {
+        var fetchXml = "?$select=vgj_proveedor&$expand=vgj_proveedor($select=vgj_idproveedor,vgj_nombre)&$filter=vgj_ordenescomprasid eq '" + ordenCompraId + "'";
+        
+        Xrm.WebApi.retrieveMultipleRecords("vgj_ordenescompras", fetchXml).then(
+            function success(result) {
+                if (result.entities.length > 0) {
+                    var proveedorId = result.entities[0].vgj_proveedor.vgj_proveedoresid;
+                    var proveedorNombre = result.entities[0].vgj_proveedor.vgj_idproveedor; // Asegúrate de que estés obteniendo el nombre correcto
+                    console.log("Proveedor id: " + proveedorId);
+                    console.log("Proveedor nombre: " + proveedorNombre);
+                    resolve({ id: proveedorId, name: proveedorNombre });
+                } else {
+                    resolve(null); // No se encontró la orden de compra
+                }
+            },
+            function(error) {
+                reject(error.message);
+            }
+        );
+    });
+}

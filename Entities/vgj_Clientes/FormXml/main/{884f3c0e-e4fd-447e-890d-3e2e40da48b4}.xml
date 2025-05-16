@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{884f3c0e-e4fd-447e-890d-3e2e40da48b4}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{d97e2bf4-809c-4815-8994-ad1b3fa182c7}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{547286fe-abc1-4028-a078-dc3619cacacd}">
+                  <labels>
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2c4ab352-283b-4e97-ad0d-35d709e6450e}">
+                        <labels>
+                          <label description="Nombre" languagecode="3082" />
+                          <label description="Nombre" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_nombre" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vgj_nombre" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{02af2855-5e8f-4c67-a831-25b9bdceaf8d}">
+                        <labels>
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{25eed4aa-401d-4b6c-b486-7585b3591692}">
+                        <labels>
+                          <label description="Telefono" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_telefono" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="vgj_telefono" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ec3326f1-f7b5-40a1-b4ae-ff5a2fab833f}">
+                        <labels>
+                          <label description="Direccion" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_direccion" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="vgj_direccion" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

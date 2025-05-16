@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="vgj_divisas" localizedName="Divisas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Divisas" languagecode="3082" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="3082" />
+  </Descriptions>
+  <options>
+    <option value="949210000" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="EUR" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210001" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="USD" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210002" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="LB" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{82a6e0a1-9ace-4816-ae0d-782a5f649289}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vgj_idproveedor" select="1" icon="1" preview="1">
+        <row name="result" id="vgj_proveedoresid">
+          <cell name="vgj_nombre" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="vgj_proveedores">
+          <attribute name="vgj_proveedoresid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="vgj_idproveedor" operator="like" value="{0}" />
+          </filter>
+          <attribute name="vgj_nombre" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Búsqueda rápida de Proveedores activos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

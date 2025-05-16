@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9977c46a-f3d2-4e5d-bbae-6b6115725fdb}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vgj_referencia" select="1" icon="1" preview="1">
+        <row name="result" id="vgj_almacenid">
+          <cell name="vgj_fecha" width="100" />
+          <cell name="vgj_tipo" width="100" />
+          <cell name="vgj_proveedordestino" width="145" />
+          <cell name="vgj_proveedororigen" width="140" />
+          <cell name="vgj_referencia" width="300" />
+          <cell name="vgj_checklist" width="102" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="vgj_almacen">
+          <attribute name="vgj_almacenid" />
+          <attribute name="vgj_referencia" />
+          <order attribute="vgj_referencia" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="vgj_fecha" />
+          <attribute name="vgj_tipo" />
+          <attribute name="vgj_proveedordestino" />
+          <attribute name="vgj_proveedororigen" />
+          <attribute name="vgj_checklist" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Almacenenes activo" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

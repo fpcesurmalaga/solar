@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b6846169-6110-4b71-943c-5ba33022ff6e}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{36968647-589c-42b2-9a9a-09a14bef0924}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{bc04e189-d731-459d-bdc7-047443723c4e}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e29fa17d-7bef-4ab7-be35-7d371512b8d7}">
+                        <labels>
+                          <label description="Familia Español" languagecode="3082" />
+                          <label description="Familia Español" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_familiaespanol" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vgj_familiaespanol" />
+                      </cell>
+                      <cell id="{4377c3f4-8c42-4d71-a8b1-2cec2aef0212}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Familia Inglés" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_familiaingles" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="vgj_familiaingles" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26a086ba-fd1e-4671-a0ba-ae455132bc0b}" visible="false">
+                        <labels>
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell locklevel="0" id="{c5c321a6-a8f2-4d5f-b74d-c775a2086bba}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{ffd9894e-9012-4a33-843d-0b9f01702a1b}" colspan="2" rowspan="6">
+                        <labels>
+                          <label description="Subfamilia" languagecode="3082" />
+                          <label description="Subfamilia Almacen" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="cc_subfamilia" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{5c54ff19-f0dc-4794-b826-2e009d8cc3d0}">
+                          <parameters>
+                            <TargetEntityType>vgj_subfamiliaalmacen</TargetEntityType>
+                            <ViewId>{31D13871-4018-4C58-8CFD-AE7D64D3D2E0}</ViewId>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <IsUserView>false</IsUserView>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <RelationshipName>vgj_subfamiliaalmacen_familia_vgj_familiaalmacen</RelationshipName>
+                            <ViewIds>{31D13871-4018-4C58-8CFD-AE7D64D3D2E0}</ViewIds>
+                            <ChartGridMode>Grid</ChartGridMode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{e18030f4-33b4-4303-a14d-3b417cf73d07}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c7839f4e-4291-424e-aa54-312548b59721}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{803e8a3d-cfe5-40a8-9dbd-8584370b1dbf}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{adad3faf-95e9-40db-a1f1-2864c4b0baaf}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{ba62b0c2-f632-4318-930a-35913dba172b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{80c86700-6e78-45d6-aa06-b87c32c9b17d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{f37c77a6-17cf-4c6e-bb8e-6c539d12f3ce}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{d02137af-b273-49eb-8a53-9b7d17ec0c31}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription forControl="{5c54ff19-f0dc-4794-b826-2e009d8cc3d0}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters>
+              <TargetEntityType>vgj_subfamiliaalmacen</TargetEntityType>
+              <ViewId>{31D13871-4018-4C58-8CFD-AE7D64D3D2E0}</ViewId>
+              <EnableViewPicker>false</EnableViewPicker>
+              <IsUserView>false</IsUserView>
+              <RecordsPerPage>4</RecordsPerPage>
+            </parameters>
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters>
+              <TargetEntityType>vgj_subfamiliaalmacen</TargetEntityType>
+              <ViewId>{31D13871-4018-4C58-8CFD-AE7D64D3D2E0}</ViewId>
+              <EnableViewPicker>false</EnableViewPicker>
+              <IsUserView>false</IsUserView>
+              <RecordsPerPage>4</RecordsPerPage>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{31D13871-4018-4C58-8CFD-AE7D64D3D2E0}</ViewId>
+                <TargetEntityType>vgj_subfamiliaalmacen</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>vgj_subfamiliaalmacen_familia_vgj_familiaalmacen</RelationshipName>
+                <FilteredViewIds />
+              </data-set>
+              <data-set name="SubGrid">
+                <ViewId>{31d13871-4018-4c58-8cfd-ae7d64d3d2e0}</ViewId>
+                <TargetEntityType>vgj_subfamiliaalmacen</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <SubGridParentId>vgj_familia</SubGridParentId>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Horizontal</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">no</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{31D13871-4018-4C58-8CFD-AE7D64D3D2E0}</ViewId>
+                <TargetEntityType>vgj_subfamiliaalmacen</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>vgj_subfamiliaalmacen_familia_vgj_familiaalmacen</RelationshipName>
+                <FilteredViewIds />
+              </data-set>
+              <data-set name="SubGrid">
+                <ViewId>{31d13871-4018-4c58-8cfd-ae7d64d3d2e0}</ViewId>
+                <TargetEntityType>vgj_subfamiliaalmacen</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <SubGridParentId>vgj_familia</SubGridParentId>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Horizontal</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">no</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{31D13871-4018-4C58-8CFD-AE7D64D3D2E0}</ViewId>
+                <TargetEntityType>vgj_subfamiliaalmacen</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>vgj_subfamiliaalmacen_familia_vgj_familiaalmacen</RelationshipName>
+                <FilteredViewIds />
+              </data-set>
+              <data-set name="SubGrid">
+                <ViewId>{31d13871-4018-4c58-8cfd-ae7d64d3d2e0}</ViewId>
+                <TargetEntityType>vgj_subfamiliaalmacen</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <SubGridParentId>vgj_familia</SubGridParentId>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Horizontal</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">no</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

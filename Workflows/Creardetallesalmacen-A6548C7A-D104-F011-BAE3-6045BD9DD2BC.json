@@ -1,0 +1,141 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "vgj_sharedcommondataserviceforapps_6c5ad"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "fc0c1197-1dd5-4fe3-b7f9-07521b553f81"
+          },
+          "type": "Request",
+          "kind": "Http",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "origenId": {
+                  "type": "string"
+                },
+                "destinoId": {
+                  "type": "string"
+                },
+                "almacenId": {
+                  "type": "string"
+                },
+                "recordID": {
+                  "type": "string"
+                },
+                "selectedData": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "triggerAuthenticationType": "All"
+          }
+        }
+      },
+      "actions": {
+        "Respuesta": {
+          "runAfter": {
+            "Aplicar_a_cada_uno": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "57a91e22-0852-4b3a-8b8f-39870ff8a5fc"
+          },
+          "type": "Response",
+          "kind": "Http",
+          "inputs": {
+            "statusCode": 200
+          }
+        },
+        "Aplicar_a_cada_uno": {
+          "foreach": "@triggerBody()?['selectedData']",
+          "actions": {
+            "Agregar_una_fila_nueva": {
+              "runAfter": {},
+              "metadata": {
+                "operationMetadataId": "878c01c8-f607-4cc3-aa14-d491fd0fa115"
+              },
+              "type": "OpenApiConnection",
+              "inputs": {
+                "host": {
+                  "connectionName": "shared_commondataserviceforapps",
+                  "operationId": "CreateRecord",
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+                },
+                "parameters": {
+                  "entityName": "vgj_almacedetalles",
+                  "item/vgj_almacen@odata.bind": "/vgj_almacens(@{triggerBody()?['almacenId']})",
+                  "item/vgj_destino@odata.bind": "/vgj_zonaacopios(@{triggerBody()?['destinoId']})",
+                  "item/vgj_name": "@triggerBody()?['referencia']",
+                  "item/vgj_origen@odata.bind": "/vgj_zonaacopios(@{triggerBody()?['origenId']})",
+                  "item/vgj_pedido@odata.bind": "/vgj_pedidoses(@{items('Aplicar_a_cada_uno')})"
+                },
+                "authentication": "@parameters('$authentication')"
+              }
+            }
+          },
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "5725c8c6-7882-4852-bc68-74c6f36b417c"
+          },
+          "type": "Foreach",
+          "runtimeConfiguration": {
+            "concurrency": {
+              "repetitions": 50
+            }
+          }
+        },
+        "Eliminar_Autoguardado": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "f7448efe-696f-4982-b1dd-11f4ece2db7e"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "DeleteRecord",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "vgj_almacedetalles",
+              "recordId": "@triggerBody()?['recordID']"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

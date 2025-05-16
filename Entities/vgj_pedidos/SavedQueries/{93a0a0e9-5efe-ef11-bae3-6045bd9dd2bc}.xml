@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{93a0a0e9-5efe-ef11-bae3-6045bd9dd2bc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vgj_partidapresupuestaria" select="1" icon="1" preview="1">
+        <row name="result" id="vgj_pedidosid">
+          <cell name="vgj_partidapresupuestaria" width="200" />
+          <cell name="vgj_completado" width="109" />
+          <cell name="vgj_cantidad" width="100" />
+          <cell name="vgj_precio" width="100" />
+          <cell name="vgj_importeeur" width="126" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="vgj_pedidos">
+          <attribute name="vgj_partidapresupuestaria" />
+          <attribute name="vgj_pedidosid" />
+          <attribute name="vgj_cantidad" />
+          <attribute name="vgj_importeeur" />
+          <attribute name="vgj_precio" />
+          <attribute name="vgj_completado" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Vista formulario Pedidos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

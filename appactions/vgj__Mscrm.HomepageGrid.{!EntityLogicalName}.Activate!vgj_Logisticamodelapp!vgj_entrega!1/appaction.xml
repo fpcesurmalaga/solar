@@ -1,0 +1,41 @@
+<appaction uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!1">
+  <appmoduleid>
+    <uniquename>vgj_Logisticamodelapp</uniquename>
+  </appmoduleid>
+  <buttonaccessibilitytext default="Activar">
+    <label description="Activar" languagecode="3082" />
+  </buttonaccessibilitytext>
+  <buttonlabeltext default="Activar">
+    <label description="Activar" languagecode="3082" />
+  </buttonlabeltext>
+  <buttontooltipdescription default="Active estos {EntityLogicalNameCollectionMarker}. &lt;br&gt;&lt;br&gt;Los registros activos se pueden editar, asignar, compartir o ver desde la vista {EntityLogicalNameCollectionMarker} activos.">
+    <label description="Active estos {EntityLogicalNameCollectionMarker}. &lt;br&gt;&lt;br&gt;Los registros activos se pueden editar, asignar, compartir o ver desde la vista {EntityLogicalNameCollectionMarker} activos." languagecode="3082" />
+  </buttontooltipdescription>
+  <buttontooltiptitle default="Activar">
+    <label description="Activar" languagecode="3082" />
+  </buttontooltiptitle>
+  <context>1</context>
+  <contextentity>
+    <logicalname>vgj_entrega</logicalname>
+  </contextentity>
+  <contextvalue>vgj_entrega</contextvalue>
+  <fonticon>$clientsvg:PageCompleted</fonticon>
+  <hidden>1</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>1</location>
+  <name>Mscrm.HomepageGrid.{!EntityLogicalName}.Activate</name>
+  <onclickeventjavascriptfunctionname>XrmCore.Commands.Activate.activateRecords</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":12,"value":null},{"type":24,"value":null},{"type":8,"value":null}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>adea1aea-b2aa-e611-80d6-00155d88c343</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>2</origin>
+  <sequence>1000100030.0000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>2</visibilitytype>
+</appaction>

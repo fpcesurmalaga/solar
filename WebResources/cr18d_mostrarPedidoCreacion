@@ -1,0 +1,24 @@
+function mostrarPedidoCreacion(executionContext) {
+   
+    var formContext = executionContext.getFormContext();
+    var formType = formContext.ui.getFormType();
+    
+    var seccionPedidoCreacion = formContext.ui.tabs.get("generalPedidos").sections.get("detallesPedidoCrear");
+  
+    
+    
+    if (formType === 2) { // Modo editar
+        console.log("modo editar");
+        
+        seccionPedidoCreacion.setVisible(false);
+        
+        
+    } else {
+        console.log("modo crear");
+      
+        detallesPedidoCrear.setVisible(true);
+        
+       
+    }
+
+}

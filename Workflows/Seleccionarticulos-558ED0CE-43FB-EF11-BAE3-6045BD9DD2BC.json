@@ -1,0 +1,118 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "vgj_sharedcommondataserviceforapps_6c5ad"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "4ffc5672-eeba-4efc-ad44-daacca906b24"
+          },
+          "type": "Request",
+          "kind": "Http",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "partidaPresupuestaria": {
+                  "type": "string"
+                },
+                "ordenCompraId": {
+                  "type": "string"
+                },
+                "incontermID": {
+                  "type": "string"
+                },
+                "revision": {
+                  "type": "integer"
+                },
+                "selectedData": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "triggerAuthenticationType": "All"
+          }
+        }
+      },
+      "actions": {
+        "Respuesta": {
+          "runAfter": {
+            "Aplicar_a_cada_uno": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "72277b15-738c-4974-b4b4-3fe3ee310b56"
+          },
+          "type": "Response",
+          "kind": "Http",
+          "inputs": {
+            "statusCode": 200
+          }
+        },
+        "Aplicar_a_cada_uno": {
+          "foreach": "@triggerBody()?['selectedData']",
+          "actions": {
+            "Agregar_una_fila_nueva": {
+              "runAfter": {},
+              "metadata": {
+                "operationMetadataId": "2c5982f6-97a1-4cd0-b593-034539eb06da"
+              },
+              "type": "OpenApiConnection",
+              "inputs": {
+                "host": {
+                  "connectionName": "shared_commondataserviceforapps",
+                  "operationId": "CreateRecord",
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+                },
+                "parameters": {
+                  "entityName": "vgj_pedidoses",
+                  "item/vgj_partidapresupuestaria": "@triggerBody()?['partidaPresupuestaria']",
+                  "item/vgj_precio": 0,
+                  "item/vgj_articulo@odata.bind": "/vgj_articuloses(@{item()})",
+                  "item/vgj_incoterm@odata.bind": "/vgj_incoterms(@{triggerBody()?['incontermID']})",
+                  "item/vgj_ordencompra@odata.bind": "/vgj_ordenescomprases(@{triggerBody()?['ordenCompraId']})",
+                  "item/vgj_revision": "@triggerBody()?['revision']"
+                },
+                "authentication": "@parameters('$authentication')"
+              }
+            }
+          },
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "28e9a412-189d-4486-9b1e-22a159759709"
+          },
+          "type": "Foreach"
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

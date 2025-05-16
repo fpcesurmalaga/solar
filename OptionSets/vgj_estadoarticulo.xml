@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="vgj_estadoarticulo" localizedName="Estado Articulo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Estado Articulo" languagecode="3082" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="3082" />
+  </Descriptions>
+  <options>
+    <option value="949210000" ExternalValue="" Color="#38bd08" IsHidden="0">
+      <labels>
+        <label description="Buen Estado" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210001" ExternalValue="" Color="#f77e05" IsHidden="0">
+      <labels>
+        <label description="Pequeños Desperfectos" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+    <option value="949210002" ExternalValue="" Color="#fc0303" IsHidden="0">
+      <labels>
+        <label description="Mal Estado" languagecode="3082" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="3082" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,19 @@
+function mostrarSeccionArticulos() {
+    var formContext = Xrm.Page;
+    var formType = formContext.ui.getFormType();
+    var partidaPresupestaria = formContext.getAttribute("vgj_partidapresupuestaria").getValue();
+    var incoterm = formContext.getAttribute("vgj_incoterm").getValue();
+    var revision = formContext.getAttribute("vgj_revision").getValue();
+    if( formType === 1){
+    if (partidaPresupestaria && incoterm && revision) {
+        var seccion = formContext.ui.tabs.get("generalPedidos").sections.get("pedidosArticulos");
+        if (seccion) {
+            seccion.setVisible(true);
+        }
+    } else {
+        var seccion = formContext.ui.tabs.get("generalPedidos").sections.get("pedidosArticulos");
+        if (seccion) {
+            seccion.setVisible(false);
+        }
+    }}
+}

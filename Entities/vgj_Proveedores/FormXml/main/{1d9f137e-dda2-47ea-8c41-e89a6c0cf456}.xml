@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1d9f137e-dda2-47ea-8c41-e89a6c0cf456}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{921e7d86-f09c-44b2-98ff-55f577c6e473}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c39318bc-4730-4032-ba0b-3221030726e8}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ac870676-f1cb-4fa4-b9fb-29e0b6b87eca}">
+                        <labels>
+                          <label description="Id Proveedor" languagecode="3082" />
+                          <label description="Id Proveedor" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_idproveedor" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vgj_idproveedor" />
+                      </cell>
+                      <cell id="{2221f2b9-ef97-4e56-9c45-bcf240c6dc4c}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Nombre Proveedor" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_nombre" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="vgj_nombre" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0f168398-548b-4a53-9cea-8ea24ae6eca9}" visible="false">
+                        <labels>
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell id="{a184daf9-9406-46ad-a4f9-b53024e4e646}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Provincia" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_provincia" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="vgj_provincia" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ab555752-8cf1-4a19-af2e-6a82fe729e70}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Ciudad" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_ciudad" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="vgj_ciudad" />
+                      </cell>
+                      <cell id="{81102bea-633e-4d93-ad0b-2230e7072434}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Teléfono" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_telefono" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="vgj_telefono" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{32247d6a-c568-4ce3-8e32-fd2d845b6211}">
+                        <labels>
+                          <label description="Dirección" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_direccion" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="vgj_direccion" />
+                      </cell>
+                      <cell locklevel="0" id="{a9e21c8d-9bd7-49d8-8cea-044f321126f0}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{6d33c486-27a5-40b3-b6ab-f584a9f8bdad}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{751458f0-a668-428f-b921-018ac879cff7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{4717bf48-1c2d-4588-8f04-331058052425}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{db06ebab-81ed-4620-9c5d-87a16508d9dd}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{956f94a4-9838-422f-8943-2be4183a5208}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{82d942f1-d924-4916-9b03-11bb3f0e0e86}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{83e8162b-510f-46d8-a16a-8bfdaa8e9673}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{8d424861-1d80-4b04-a49c-32a39d5b7187}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

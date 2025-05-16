@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6b6153b9-fe41-42b3-b1fb-44b7be72c12b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vgj_name" select="1" icon="1" preview="1">
+        <row name="result" id="vgj_articuloclientecabeceraid">
+          <cell name="vgj_name" width="300" />
+        </row>
+        <controlDescriptions>
+          <controlDescription>
+            <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+              <parameters />
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.Grid.GridControl">
+              <parameters>
+                <data-set name="Grid">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                </data-set>
+                <data-set name="SubGrid">
+                  <TargetEntityType>vgj_articulocliente</TargetEntityType>
+                  <ViewId>5d8eb2b4-3724-471d-86c2-b45ff820850f</ViewId>
+                  <SubGridParentId>vgj_cabecera</SubGridParentId>
+                </data-set>
+                <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+                <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+                <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+                <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+                <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
+              </parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+              <parameters>
+                <data-set name="Grid">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                </data-set>
+                <data-set name="SubGrid">
+                  <TargetEntityType>vgj_articulocliente</TargetEntityType>
+                  <ViewId>5d8eb2b4-3724-471d-86c2-b45ff820850f</ViewId>
+                  <SubGridParentId>vgj_cabecera</SubGridParentId>
+                </data-set>
+                <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+                <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+                <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+                <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+                <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
+              </parameters>
+            </customControl>
+            <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+              <parameters>
+                <data-set name="Grid">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                </data-set>
+                <data-set name="SubGrid">
+                  <TargetEntityType>vgj_articulocliente</TargetEntityType>
+                  <ViewId>5d8eb2b4-3724-471d-86c2-b45ff820850f</ViewId>
+                  <SubGridParentId>vgj_cabecera</SubGridParentId>
+                </data-set>
+                <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+                <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+                <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+                <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+                <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
+              </parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="vgj_articuloclientecabecera">
+          <attribute name="vgj_articuloclientecabeceraid" />
+          <attribute name="vgj_name" />
+          <order attribute="vgj_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Artículos Cliente Cabecera activo" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

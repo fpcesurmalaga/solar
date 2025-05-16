@@ -1,0 +1,15 @@
+function poblarCantidadDisponible(executionContext) {
+    var formContext = executionContext.getFormContext();
+    var articuloClienteId = formContext.getAttribute("vgj_articulocliente").getValue()[0].id; // Asumiendo que "vgj_pedido" es el campo lookup al pedido
+    
+    // Utiliza Xrm.WebApi para obtener la cantidad disponible del pedido
+    Xrm.WebApi.retrieveRecord("vgj_articulocliente", articuloClienteId, "?$select=vgj_cantidaddisponibleplanificada").then(
+        function success(result) {
+            var cantidadDisponible = result["vgj_cantidaddisponibleplanificada"];
+            formContext.getAttribute("vgj_cantidaddisponible").setValue(cantidadDisponible);
+        },
+        function(error) {
+            console.error("Error al obtener la cantidad disponible: " + error.message);
+        }
+    );
+}

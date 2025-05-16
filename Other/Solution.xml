@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.25042.222" SolutionPackageVersion="9.2" languagecode="3082" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25042.222" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25043.00214">
+  <SolutionManifest>
+    <UniqueName>Logistica</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Logistica" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.1</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>Victor</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="vgj" languagecode="3082" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>vgj</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>94921</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="vgj_almacedetalle" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_almacen" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_articuloacopio" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_articulocliente" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_articuloclientecabecera" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_articulos" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_articulosubcontrata" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_checklistentrega" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_clientes" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_entornos" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_entrega" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_entregacliente" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_familiaalmacen" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_incoterm" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_ordenescompras" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_pedidos" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_proveedores" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_proyectos" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_subfamiliaalmacen" behavior="0" />
+      <RootComponent type="1" schemaName="vgj_zonaacopio" behavior="0" />
+      <RootComponent type="29" id="{03e70f40-2a03-f011-bae3-6045bd9dd2bc}" behavior="0" />
+      <RootComponent type="29" id="{11cddb5e-51f4-ef11-be1f-6045bd9dd2bc}" behavior="0" />
+      <RootComponent type="29" id="{20246351-3506-f011-bae2-6045bd9dd2bc}" behavior="0" />
+      <RootComponent type="29" id="{21a88b17-e6f4-ef11-be1f-6045bd9dd2bc}" behavior="0" />
+      <RootComponent type="29" id="{2aff4120-0200-f011-bae3-6045bd9dd2bc}" behavior="0" />
+      <RootComponent type="29" id="{4dfb5484-fcff-ef11-bae3-6045bd9dd2bc}" behavior="0" />
+      <RootComponent type="29" id="{558ed0ce-43fb-ef11-bae3-6045bd9dd2bc}" behavior="0" />
+      <RootComponent type="29" id="{6cb1e092-b1f2-ef11-be1f-6045bd941e78}" behavior="0" />
+      <RootComponent type="29" id="{a6548c7a-d104-f011-bae3-6045bd9dd2bc}" behavior="0" />
+      <RootComponent type="29" id="{ae196f3d-2c03-f011-bae3-6045bd9dd2bc}" behavior="0" />
+      <RootComponent type="29" id="{dbaa65ec-d403-f011-bae3-6045bd9dd2bc}" behavior="0" />
+      <RootComponent type="29" id="{eeae22f3-4efe-ef11-bae3-6045bd9dd2bc}" behavior="0" />
+      <RootComponent type="300" schemaName="vgj_logisticamodelappdefaultcommandlibrary_41ef4" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_cargarcantidadesalmacendetalles" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_controlentregacliente" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_controlEntregas" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_controlEntregasAsync" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_filtrarPedidosOrdenCompra" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_filtrarpedidosordencompraqv" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_mostrarcampospedidoedicion" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_mostrarEntregas" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_mostrarPedidoCreacion" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_mostrarseccionarticulos" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_ocultarentregasincompletas" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_poblarcantidaddisponible" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_poblarcantidadentrega" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_popularProveedoresdesdeordencompra" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_preventautosave" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_seleccionarproveedorelmya" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_validarCantidad" behavior="0" />
+      <RootComponent type="61" schemaName="cr18d_validarEntregas" behavior="0" />
+      <RootComponent type="61" schemaName="vgj_creardetallesalmacen" behavior="0" />
+      <RootComponent type="61" schemaName="vgj_gridselectedrows" behavior="0" />
+      <RootComponent type="61" schemaName="vgj_mostrarseccionaarticulos" behavior="0" />
+      <RootComponent type="61" schemaName="vgj_preventAutoSave" behavior="0" />
+      <RootComponent type="62" schemaName="vgj_Logisticamodelapp" behavior="0" />
+      <RootComponent type="80" schemaName="vgj_Logisticamodelapp" behavior="0" />
+      <RootComponent type="9" schemaName="vgj_completo" behavior="0" />
+      <RootComponent type="9" schemaName="vgj_divisas" behavior="0" />
+      <RootComponent type="9" schemaName="vgj_estadoarticulo" behavior="0" />
+      <RootComponent type="9" schemaName="vgj_evaluacion" behavior="0" />
+      <RootComponent type="9" schemaName="vgj_medida" behavior="0" />
+      <RootComponent type="9" schemaName="vgj_tipodestino" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="vgj_Logisticamodelapp" displayName="Logistica model app" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="Microsoft.PowerApps.PowerAppsOneGrid" displayName="Microsoft.PowerApps.PowerAppsOneGrid" solution="BaseCustomControlsCore (9.0.2504.2010)">
+          <package appName="Base Custom Controls" version="9.0.2504.2010">BaseCustomControlsCore (9.0.2504.2010)</package>
+        </Required>
+        <Dependent type="26" schemaName="Ordenes Compras activo" displayName="Ordenes Compras activo" parentSchemaName="vgj_ordenescompras" parentDisplayName="Ordenes Compras" id="{246ae6ea-a54e-4bc9-813f-f31bffca814e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="Microsoft.PowerApps.PowerAppsOneGrid" displayName="Microsoft.PowerApps.PowerAppsOneGrid" solution="BaseCustomControlsCore (9.0.2504.2010)">
+          <package appName="Base Custom Controls" version="9.0.2504.2010">BaseCustomControlsCore (9.0.2504.2010)</package>
+        </Required>
+        <Dependent type="26" schemaName="Pedidos activo" displayName="Pedidos activo" parentSchemaName="vgj_pedidos" parentDisplayName="Pedidos" id="{8ee1308b-1409-4a38-b20d-bf6b3f5aea31}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="Microsoft.PowerApps.PowerAppsOneGrid" displayName="Microsoft.PowerApps.PowerAppsOneGrid" solution="BaseCustomControlsCore (9.0.2504.2010)">
+          <package appName="Base Custom Controls" version="9.0.2504.2010">BaseCustomControlsCore (9.0.2504.2010)</package>
+        </Required>
+        <Dependent type="68" id="{10eacf01-83d9-42a9-8714-d0fda7b6c850}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="Microsoft.PowerApps.PowerAppsOneGrid" displayName="Microsoft.PowerApps.PowerAppsOneGrid" solution="BaseCustomControlsCore (9.0.2504.2010)">
+          <package appName="Base Custom Controls" version="9.0.2504.2010">BaseCustomControlsCore (9.0.2504.2010)</package>
+        </Required>
+        <Dependent type="68" id="{7731e81b-c4f7-4ecf-a657-5b66097ccdd7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="Microsoft.PowerApps.PowerAppsOneGrid" displayName="Microsoft.PowerApps.PowerAppsOneGrid" solution="BaseCustomControlsCore (9.0.2504.2010)">
+          <package appName="Base Custom Controls" version="9.0.2504.2010">BaseCustomControlsCore (9.0.2504.2010)</package>
+        </Required>
+        <Dependent type="68" id="{a93bf431-bb36-4d15-a23e-36c7f0fed22e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2504.2010)">
+          <package appName="Base Custom Controls" version="9.0.2504.2010">BaseCustomControlsCore (9.0.2504.2010)</package>
+        </Required>
+        <Dependent type="26" schemaName="Artículos Cliente Cabecera activo" displayName="Artículos Cliente Cabecera activo" parentSchemaName="vgj_articuloclientecabecera" parentDisplayName="Artículo Cliente Cabecera" id="{6b6153b9-fe41-42b3-b1fb-44b7be72c12b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2504.2010)">
+          <package appName="Base Custom Controls" version="9.0.2504.2010">BaseCustomControlsCore (9.0.2504.2010)</package>
+        </Required>
+        <Dependent type="60" displayName="Información" parentDisplayName="Artículo Cliente" id="{26409a8e-afd7-4972-b25b-02dcdbc9fba9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2504.2010)">
+          <package appName="Base Custom Controls" version="9.0.2504.2010">BaseCustomControlsCore (9.0.2504.2010)</package>
+        </Required>
+        <Dependent type="60" displayName="Información" parentDisplayName="Proyectos" id="{360ef875-a4c8-40a1-8b4d-5d0db71bef56}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2504.2010)">
+          <package appName="Base Custom Controls" version="9.0.2504.2010">BaseCustomControlsCore (9.0.2504.2010)</package>
+        </Required>
+        <Dependent type="60" displayName="Información" parentDisplayName="Almacen" id="{621f2eaa-9cb0-4626-9fab-9f897fac159c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2504.2010)">
+          <package appName="Base Custom Controls" version="9.0.2504.2010">BaseCustomControlsCore (9.0.2504.2010)</package>
+        </Required>
+        <Dependent type="60" displayName="Información" parentDisplayName="Familia Almacén" id="{b6846169-6110-4b71-943c-5ba33022ff6e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2504.2010)">
+          <package appName="Base Custom Controls" version="9.0.2504.2010">BaseCustomControlsCore (9.0.2504.2010)</package>
+        </Required>
+        <Dependent type="60" displayName="Información" parentDisplayName="Pedidos" id="{c551e8da-7bd2-4eea-a443-f1946edaf100}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2504.2010)">
+          <package appName="Base Custom Controls" version="9.0.2504.2010">BaseCustomControlsCore (9.0.2504.2010)</package>
+        </Required>
+        <Dependent type="60" displayName="Información" parentDisplayName="Ordenes Compras" id="{cf207a8f-0567-4d96-867d-82aab85854b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.AvailableOnForm!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.AvailableOnForm!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Save!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.AvailableOnForm!0" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Save!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.AvailableOnForm!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanSavePrimary!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanSavePrimary!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Save!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.CanSavePrimary!0" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Save!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.CanSavePrimary!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanSavePrimaryEntityType!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanSavePrimaryEntityType!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Save!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.CanSavePrimaryEntityType!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Save!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.CanSavePrimaryEntityType!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWritePrimary!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWritePrimary!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.CanWritePrimary!0" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWritePrimary!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWritePrimary!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0,appactionruleid.uniquename=msdyn_Mscrm.CanWritePrimary!0" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0" id.appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWritePrimary!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWritePrimary!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.CanWritePrimary!0" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWritePrimary!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWritePrimary!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0,appactionruleid.uniquename=msdyn_Mscrm.CanWritePrimary!0" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0" id.appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWritePrimary!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWritePrimary!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.CanWritePrimary!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWritePrimary!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWritePrimary!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0,appactionruleid.uniquename=msdyn_Mscrm.CanWritePrimary!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0" id.appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWritePrimary!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWritePrimary!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.CanWritePrimary!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWritePrimary!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWritePrimary!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0,appactionruleid.uniquename=msdyn_Mscrm.CanWritePrimary!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0" id.appactionruleid.uniquename="msdyn_Mscrm.CanWritePrimary!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWriteSelected!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entrega!1,appactionruleid.uniquename=msdyn_Mscrm.CanWriteSelected!1" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!1" id.appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWriteSelected!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entregacliente!1,appactionruleid.uniquename=msdyn_Mscrm.CanWriteSelected!1" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!1" id.appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWriteSelected!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entrega!1,appactionruleid.uniquename=msdyn_Mscrm.CanWriteSelected!1" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!1" id.appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWriteSelected!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!1,appactionruleid.uniquename=msdyn_Mscrm.CanWriteSelected!1" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!1" id.appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWriteSelected!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entrega!2,appactionruleid.uniquename=msdyn_Mscrm.CanWriteSelected!1" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!2" id.appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWriteSelected!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entregacliente!2,appactionruleid.uniquename=msdyn_Mscrm.CanWriteSelected!1" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!2" id.appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWriteSelected!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entrega!2,appactionruleid.uniquename=msdyn_Mscrm.CanWriteSelected!1" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!2" id.appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.CanWriteSelected!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.CanWriteSelected!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!2,appactionruleid.uniquename=msdyn_Mscrm.CanWriteSelected!1" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!2" id.appactionruleid.uniquename="msdyn_Mscrm.CanWriteSelected!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.DeleteSelectedEntityPermission!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.DeleteSelectedEntityPermission!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Delete!vgj_Logisticamodelapp!vgj_entrega!2,appactionruleid.uniquename=msdyn_Mscrm.DeleteSelectedEntityPermission!1" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Delete!vgj_Logisticamodelapp!vgj_entrega!2" id.appactionruleid.uniquename="msdyn_Mscrm.DeleteSelectedEntityPermission!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.IsAutoSaveDisable!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.IsAutoSaveDisable!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Save!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.IsAutoSaveDisable!0" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Save!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.IsAutoSaveDisable!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Save!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Save!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Delete!vgj_Logisticamodelapp!vgj_entrega!2,appactionruleid.uniquename=msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Delete!vgj_Logisticamodelapp!vgj_entrega!2" id.appactionruleid.uniquename="msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.NotShowForManyToManyGrids!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.NotShowForManyToManyGrids!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Delete!vgj_Logisticamodelapp!vgj_entrega!2,appactionruleid.uniquename=msdyn_Mscrm.NotShowForManyToManyGrids!1" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Delete!vgj_Logisticamodelapp!vgj_entrega!2" id.appactionruleid.uniquename="msdyn_Mscrm.NotShowForManyToManyGrids!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.OutlookRenderTypeWeb!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.OutlookRenderTypeWeb!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.OutlookRenderTypeWeb!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.OutlookRenderTypeWeb!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.OutlookRenderTypeWeb!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.OutlookRenderTypeWeb!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0,appactionruleid.uniquename=msdyn_Mscrm.OutlookRenderTypeWeb!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0" id.appactionruleid.uniquename="msdyn_Mscrm.OutlookRenderTypeWeb!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.OutlookRenderTypeWeb!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.OutlookRenderTypeWeb!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.OutlookRenderTypeWeb!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.OutlookRenderTypeWeb!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.OutlookRenderTypeWeb!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.OutlookRenderTypeWeb!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0,appactionruleid.uniquename=msdyn_Mscrm.OutlookRenderTypeWeb!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0" id.appactionruleid.uniquename="msdyn_Mscrm.OutlookRenderTypeWeb!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.OutlookRenderTypeWeb!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.OutlookRenderTypeWeb!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Save!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.OutlookRenderTypeWeb!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Save!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.OutlookRenderTypeWeb!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.PrimaryEntityHasStatecode!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.PrimaryEntityHasStatecode!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.PrimaryEntityHasStatecode!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.PrimaryEntityHasStatecode!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.PrimaryEntityHasStatecode!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.PrimaryEntityHasStatecode!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0,appactionruleid.uniquename=msdyn_Mscrm.PrimaryEntityHasStatecode!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0" id.appactionruleid.uniquename="msdyn_Mscrm.PrimaryEntityHasStatecode!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.PrimaryEntityHasStatecode!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.PrimaryEntityHasStatecode!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.PrimaryEntityHasStatecode!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.PrimaryEntityHasStatecode!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.PrimaryEntityHasStatecode!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.PrimaryEntityHasStatecode!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0,appactionruleid.uniquename=msdyn_Mscrm.PrimaryEntityHasStatecode!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0" id.appactionruleid.uniquename="msdyn_Mscrm.PrimaryEntityHasStatecode!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.PrimaryIsActive!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.PrimaryIsActive!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.PrimaryIsActive!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsActive!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.PrimaryIsActive!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.PrimaryIsActive!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0,appactionruleid.uniquename=msdyn_Mscrm.PrimaryIsActive!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0" id.appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsActive!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.PrimaryIsInactive!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.PrimaryIsInactive!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.PrimaryIsInactive!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsInactive!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.PrimaryIsInactive!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.PrimaryIsInactive!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0,appactionruleid.uniquename=msdyn_Mscrm.PrimaryIsInactive!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0" id.appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsInactive!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.PrimaryIsNotActivity!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.PrimaryIsNotActivity!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.PrimaryIsNotActivity!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsNotActivity!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.PrimaryIsNotActivity!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.PrimaryIsNotActivity!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0,appactionruleid.uniquename=msdyn_Mscrm.PrimaryIsNotActivity!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!0" id.appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsNotActivity!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.PrimaryIsNotActivity!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.PrimaryIsNotActivity!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.PrimaryIsNotActivity!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsNotActivity!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.PrimaryIsNotActivity!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.PrimaryIsNotActivity!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0,appactionruleid.uniquename=msdyn_Mscrm.PrimaryIsNotActivity!1" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!0" id.appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsNotActivity!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.ReadPrimaryPermission!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.ReadPrimaryPermission!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.Form.%7B!EntityLogicalName%7D.Save!vgj_Logisticamodelapp!vgj_entrega!0,appactionruleid.uniquename=msdyn_Mscrm.ReadPrimaryPermission!0" id.appactionid.uniquename="vgj__Mscrm.Form.{!EntityLogicalName}.Save!vgj_Logisticamodelapp!vgj_entrega!0" id.appactionruleid.uniquename="msdyn_Mscrm.ReadPrimaryPermission!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectedEntityHasStatecode!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entrega!1,appactionruleid.uniquename=msdyn_Mscrm.SelectedEntityHasStatecode!1" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!1" id.appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectedEntityHasStatecode!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entregacliente!1,appactionruleid.uniquename=msdyn_Mscrm.SelectedEntityHasStatecode!1" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!1" id.appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectedEntityHasStatecode!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entrega!1,appactionruleid.uniquename=msdyn_Mscrm.SelectedEntityHasStatecode!1" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!1" id.appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectedEntityHasStatecode!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!1,appactionruleid.uniquename=msdyn_Mscrm.SelectedEntityHasStatecode!1" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!1" id.appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectedEntityHasStatecode!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entrega!2,appactionruleid.uniquename=msdyn_Mscrm.SelectedEntityHasStatecode!1" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!2" id.appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectedEntityHasStatecode!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entregacliente!2,appactionruleid.uniquename=msdyn_Mscrm.SelectedEntityHasStatecode!1" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!2" id.appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectedEntityHasStatecode!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entrega!2,appactionruleid.uniquename=msdyn_Mscrm.SelectedEntityHasStatecode!1" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!2" id.appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectedEntityHasStatecode!1" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!2,appactionruleid.uniquename=msdyn_Mscrm.SelectedEntityHasStatecode!1" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!2" id.appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityHasStatecode!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectionCountAtLeastOne!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entrega!1,appactionruleid.uniquename=msdyn_Mscrm.SelectionCountAtLeastOne!0" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!1" id.appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectionCountAtLeastOne!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entregacliente!1,appactionruleid.uniquename=msdyn_Mscrm.SelectionCountAtLeastOne!0" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!1" id.appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectionCountAtLeastOne!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entrega!1,appactionruleid.uniquename=msdyn_Mscrm.SelectionCountAtLeastOne!0" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!1" id.appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectionCountAtLeastOne!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!1,appactionruleid.uniquename=msdyn_Mscrm.SelectionCountAtLeastOne!0" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!1" id.appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectionCountAtLeastOne!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entrega!2,appactionruleid.uniquename=msdyn_Mscrm.SelectionCountAtLeastOne!0" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!2" id.appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectionCountAtLeastOne!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entregacliente!2,appactionruleid.uniquename=msdyn_Mscrm.SelectionCountAtLeastOne!0" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!2" id.appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectionCountAtLeastOne!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entrega!2,appactionruleid.uniquename=msdyn_Mscrm.SelectionCountAtLeastOne!0" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!2" id.appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectionCountAtLeastOne!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!2,appactionruleid.uniquename=msdyn_Mscrm.SelectionCountAtLeastOne!0" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!2" id.appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.SelectionCountAtLeastOne!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Delete!vgj_Logisticamodelapp!vgj_entrega!2,appactionruleid.uniquename=msdyn_Mscrm.SelectionCountAtLeastOne!0" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Delete!vgj_Logisticamodelapp!vgj_entrega!2" id.appactionruleid.uniquename="msdyn_Mscrm.SelectionCountAtLeastOne!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.VisualizationPaneNotMaximized!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entrega!1,appactionruleid.uniquename=msdyn_Mscrm.VisualizationPaneNotMaximized!0" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!1" id.appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.VisualizationPaneNotMaximized!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entregacliente!1,appactionruleid.uniquename=msdyn_Mscrm.VisualizationPaneNotMaximized!0" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!1" id.appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.VisualizationPaneNotMaximized!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entrega!1,appactionruleid.uniquename=msdyn_Mscrm.VisualizationPaneNotMaximized!0" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!1" id.appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.VisualizationPaneNotMaximized!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.HomepageGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!1,appactionruleid.uniquename=msdyn_Mscrm.VisualizationPaneNotMaximized!0" id.appactionid.uniquename="vgj__Mscrm.HomepageGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!1" id.appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.VisualizationPaneNotMaximized!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entrega!2,appactionruleid.uniquename=msdyn_Mscrm.VisualizationPaneNotMaximized!0" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entrega!2" id.appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.VisualizationPaneNotMaximized!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Activate!vgj_Logisticamodelapp!vgj_entregacliente!2,appactionruleid.uniquename=msdyn_Mscrm.VisualizationPaneNotMaximized!0" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Activate!vgj_Logisticamodelapp!vgj_entregacliente!2" id.appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.VisualizationPaneNotMaximized!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entrega!2,appactionruleid.uniquename=msdyn_Mscrm.VisualizationPaneNotMaximized!0" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entrega!2" id.appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.VisualizationPaneNotMaximized!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!2,appactionruleid.uniquename=msdyn_Mscrm.VisualizationPaneNotMaximized!0" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Deactivate!vgj_Logisticamodelapp!vgj_entregacliente!2" id.appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="appactionrule" displayName="msdyn_Mscrm.VisualizationPaneNotMaximized!0" solution="msdyn_SystemAppActions (9.1.0.55)" id.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0">
+          <package appName="PowerAppsActions Package" version="9.1.0.55">PowerAppsActions_Anchor (9.1.0.55)</package>
+        </Required>
+        <Dependent type="appaction_appactionrule_classicrules" displayName="appactionid.uniquename=vgj__Mscrm.SubGrid.%7B!EntityLogicalName%7D.Delete!vgj_Logisticamodelapp!vgj_entrega!2,appactionruleid.uniquename=msdyn_Mscrm.VisualizationPaneNotMaximized!0" id.appactionid.uniquename="vgj__Mscrm.SubGrid.{!EntityLogicalName}.Delete!vgj_Logisticamodelapp!vgj_entrega!2" id.appactionruleid.uniquename="msdyn_Mscrm.VisualizationPaneNotMaximized!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.13)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.18">PowerAppsAppFramework_Anchor (1.0.0.18)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=vgj_Logisticamodelapp,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="vgj_Logisticamodelapp" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AsyncOnSave" solution="SettingDefinitionsData (9.2.2502.2502222)" id.uniquename="AsyncOnSave">
+          <package appName="AppModule" version="9.2.2502.2502222">AppModuleSolutionAnchor (9.2.2502.2502222)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=vgj_Logisticamodelapp,settingdefinitionid.uniquename=AsyncOnSave" id.parentappmoduleid.uniquename="vgj_Logisticamodelapp" id.settingdefinitionid.uniquename="AsyncOnSave" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

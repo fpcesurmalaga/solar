@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{360ef875-a4c8-40a1-8b4d-5d0db71bef56}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{1262a223-2992-4975-bd3d-4a7d55c79d03}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c3989f53-016d-4280-91d6-125cfff12324}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3b1a19c5-b695-4f66-9f70-bc74e44fe704}">
+                        <labels>
+                          <label description="Numero Proyecto" languagecode="3082" />
+                          <label description="Project Number" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_numeroproyecto" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vgj_numeroproyecto" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{10b0f555-0193-41ee-888d-9cff27bcc9c5}" visible="false">
+                        <labels>
+                          <label description="Propietario" languagecode="3082" />
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{242fb322-9683-4a00-9c89-68d74883336a}">
+                        <labels>
+                          <label description="Nombre Proyecto" languagecode="3082" />
+                          <label description="Project Name" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_nombreproyecto" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="vgj_nombreproyecto" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dcf63c29-71a7-4139-9dda-a3d6fd12f3b7}">
+                        <labels>
+                          <label description="Descripcion Proyecto" languagecode="3082" />
+                          <label description="Project Description" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_descripcionproyecto" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="vgj_descripcionproyecto" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fd2bdc53-a963-49d9-a727-9371ceaac1c7}">
+                        <labels>
+                          <label description="Entorno" languagecode="3082" />
+                          <label description="Environment" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_entorno" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="vgj_entorno" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cf360a6c-c27c-4d92-b2e1-e766b3c08eb8}">
+                        <labels>
+                          <label description="Cliente" languagecode="3082" />
+                          <label description="Client" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_cliente" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="vgj_cliente" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tabOrdenesCompras" id="60cfd8de-b1a7-480d-95e9-1c2d1e86da57" IsUserDefined="0" locklevel="0" showlabel="true" contenttype="cardSections">
+          <labels>
+            <label description="Órdenes de Compras" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_ordenes_compras" id="774d6b76-d166-42d1-8eda-0aea3c394e8f" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Ordenes Compras" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{6fc6c42d-9d1c-49e4-9d17-3e28501fa24c}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{8dd9909d-4c9e-4bf4-9eeb-2482cbc32529}" colspan="1" rowspan="6" auto="true" showlabel="false">
+                        <labels>
+                          <label description="New cuadrícula editable" languagecode="3082" />
+                          <label description="Ordenes Compras" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="cc_1741186294373" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{5749de42-4588-4993-b03e-64cb2c3b2499}">
+                          <parameters>
+                            <TargetEntityType>vgj_ordenescompras</TargetEntityType>
+                            <ViewId>{246ae6ea-a54e-4bc9-813f-f31bffca814e}</ViewId>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <IsUserView>false</IsUserView>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <AutoExpand>Auto</AutoExpand>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tabOrdenesCompras_section_3" id="05314f04-2f84-4533-bf21-2303b9c54f24" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Artículos Clientes" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{04e2a8f3-9582-4f29-a187-3ec475c6e16b}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1741174785352" languagecode="3082" />
+                          <label description="Ordenes Compras" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_2" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{b7037972-433a-4887-b7e2-e4e724e5452b}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>vgj_articuloclientecabecera_proyecto_vgj_proyectos</RelationshipName>
+                            <TargetEntityType>vgj_articuloclientecabecera</TargetEntityType>
+                            <ViewId>{6B6153B9-FE41-42B3-B1FB-44B7BE72C12B}</ViewId>
+                            <ViewIds>{6B6153B9-FE41-42B3-B1FB-44B7BE72C12B}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_almacen" id="4c14cdd0-a5a4-4fbd-8f61-73fbc96516ad" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Almacen" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" id="c2afaa41-b7e9-45c2-aedb-a304630ab85a" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Nueva sección" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{c673155a-f48a-48d3-96ac-bbe04695b67c}" rowspan="4" colspan="1" auto="false">
+                        <labels>
+                          <label description="New SG control 1742297135144" languagecode="3082" />
+                          <label description="Ordenes Compras" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>vgj_almacen_proyecto_vgj_proyectos</RelationshipName>
+                            <TargetEntityType>vgj_almacen</TargetEntityType>
+                            <ViewId>{9977c46a-f3d2-4e5d-bbae-6b6115725fdb}</ViewId>
+                            <ViewIds>{9977c46a-f3d2-4e5d-bbae-6b6115725fdb}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_zonasAcopio" id="7a354a59-e267-47de-bf52-fccf73642f8e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Zonas Acopio" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{43241495-7214-402f-9abf-c06a7d3c098f}" colspan="1" rowspan="6" showlabel="false">
+                        <labels>
+                          <label description="New cuadrícula editable" languagecode="3082" />
+                          <label description="Zonas Acopio" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="cc_1742302016078" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{eff4840f-4988-48d3-96f4-2fd378ac17a3}">
+                          <parameters>
+                            <TargetEntityType>vgj_zonaacopio</TargetEntityType>
+                            <ViewId>{4BFE77FB-CF09-496D-BEF2-58832C8F6E70}</ViewId>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <IsUserView>false</IsUserView>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <RelationshipName>vgj_zonaacopio_proyecto_vgj_proyectos</RelationshipName>
+                            <ViewIds>{4BFE77FB-CF09-496D-BEF2-58832C8F6E70}</ViewIds>
+                            <ChartGridMode>Grid</ChartGridMode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{3e28bcbf-7e9c-47bf-a7dc-6881a2662e4d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{cea52c2a-1409-49f7-9a27-7b504b2ce5b8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{48705274-6a72-41e5-816d-72c9847db1fe}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{bdfa70a6-ab24-4df6-ba28-aa70a8a5b1de}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{45204ae8-2d3d-4334-8880-622695e70959}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{635961ef-119f-432c-b4f7-a3ad827bd3fa}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{a05bbf91-7667-4d06-aede-dbb16cb92f8b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{e11af83e-a45a-40d4-91d8-537e1b20d4ca}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription forControl="{b7037972-433a-4887-b7e2-e4e724e5452b}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters />
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{6b6153b9-fe41-42b3-b1fb-44b7be72c12b}</ViewId>
+                <TargetEntityType>vgj_articuloclientecabecera</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>vgj_articuloclientecabecera_proyecto_vgj_proyectos</RelationshipName>
+                <FilteredViewIds>{6B6153B9-FE41-42B3-B1FB-44B7BE72C12B}</FilteredViewIds>
+              </data-set>
+              <data-set name="SubGrid">
+                <ViewId>{5d8eb2b4-3724-471d-86c2-b45ff820850f}</ViewId>
+                <TargetEntityType>vgj_articulocliente</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <SubGridParentId>vgj_cabecera</SubGridParentId>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{6b6153b9-fe41-42b3-b1fb-44b7be72c12b}</ViewId>
+                <TargetEntityType>vgj_articuloclientecabecera</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>vgj_articuloclientecabecera_proyecto_vgj_proyectos</RelationshipName>
+                <FilteredViewIds>{6B6153B9-FE41-42B3-B1FB-44B7BE72C12B}</FilteredViewIds>
+              </data-set>
+              <data-set name="SubGrid">
+                <ViewId>{5d8eb2b4-3724-471d-86c2-b45ff820850f}</ViewId>
+                <TargetEntityType>vgj_articulocliente</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <SubGridParentId>vgj_cabecera</SubGridParentId>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{6b6153b9-fe41-42b3-b1fb-44b7be72c12b}</ViewId>
+                <TargetEntityType>vgj_articuloclientecabecera</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>vgj_articuloclientecabecera_proyecto_vgj_proyectos</RelationshipName>
+                <FilteredViewIds>{6B6153B9-FE41-42B3-B1FB-44B7BE72C12B}</FilteredViewIds>
+              </data-set>
+              <data-set name="SubGrid">
+                <ViewId>{5d8eb2b4-3724-471d-86c2-b45ff820850f}</ViewId>
+                <TargetEntityType>vgj_articulocliente</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <SubGridParentId>vgj_cabecera</SubGridParentId>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{5749de42-4588-4993-b03e-64cb2c3b2499}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters>
+              <TargetEntityType>vgj_ordenescompras</TargetEntityType>
+              <ViewId>{246ae6ea-a54e-4bc9-813f-f31bffca814e}</ViewId>
+              <EnableViewPicker>false</EnableViewPicker>
+              <IsUserView>false</IsUserView>
+              <RecordsPerPage>4</RecordsPerPage>
+            </parameters>
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters>
+              <TargetEntityType>vgj_ordenescompras</TargetEntityType>
+              <ViewId>{246ae6ea-a54e-4bc9-813f-f31bffca814e}</ViewId>
+              <EnableViewPicker>false</EnableViewPicker>
+              <IsUserView>false</IsUserView>
+              <RecordsPerPage>4</RecordsPerPage>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{246ae6ea-a54e-4bc9-813f-f31bffca814e}</ViewId>
+                <TargetEntityType>vgj_ordenescompras</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName />
+                <FilteredViewIds />
+              </data-set>
+              <data-set name="SubGrid">
+                <ViewId>{8ee1308b-1409-4a38-b20d-bf6b3f5aea31}</ViewId>
+                <TargetEntityType>vgj_pedidos</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <SubGridParentId>vgj_ordencompra</SubGridParentId>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{246ae6ea-a54e-4bc9-813f-f31bffca814e}</ViewId>
+                <TargetEntityType>vgj_ordenescompras</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName />
+                <FilteredViewIds />
+              </data-set>
+              <data-set name="SubGrid">
+                <ViewId>{8ee1308b-1409-4a38-b20d-bf6b3f5aea31}</ViewId>
+                <TargetEntityType>vgj_pedidos</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <SubGridParentId>vgj_ordencompra</SubGridParentId>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{246ae6ea-a54e-4bc9-813f-f31bffca814e}</ViewId>
+                <TargetEntityType>vgj_ordenescompras</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName />
+                <FilteredViewIds />
+              </data-set>
+              <data-set name="SubGrid">
+                <ViewId>{8ee1308b-1409-4a38-b20d-bf6b3f5aea31}</ViewId>
+                <TargetEntityType>vgj_pedidos</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <SubGridParentId>vgj_ordencompra</SubGridParentId>
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{eff4840f-4988-48d3-96f4-2fd378ac17a3}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters>
+              <TargetEntityType>vgj_zonaacopio</TargetEntityType>
+              <ViewId>{4BFE77FB-CF09-496D-BEF2-58832C8F6E70}</ViewId>
+              <EnableViewPicker>false</EnableViewPicker>
+              <IsUserView>false</IsUserView>
+              <RecordsPerPage>4</RecordsPerPage>
+            </parameters>
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters>
+              <TargetEntityType>vgj_zonaacopio</TargetEntityType>
+              <ViewId>{4BFE77FB-CF09-496D-BEF2-58832C8F6E70}</ViewId>
+              <EnableViewPicker>false</EnableViewPicker>
+              <IsUserView>false</IsUserView>
+              <RecordsPerPage>4</RecordsPerPage>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{4BFE77FB-CF09-496D-BEF2-58832C8F6E70}</ViewId>
+                <TargetEntityType>vgj_zonaacopio</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>vgj_zonaacopio_proyecto_vgj_proyectos</RelationshipName>
+                <FilteredViewIds />
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">yes</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{4BFE77FB-CF09-496D-BEF2-58832C8F6E70}</ViewId>
+                <TargetEntityType>vgj_zonaacopio</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>vgj_zonaacopio_proyecto_vgj_proyectos</RelationshipName>
+                <FilteredViewIds />
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">yes</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{4BFE77FB-CF09-496D-BEF2-58832C8F6E70}</ViewId>
+                <TargetEntityType>vgj_zonaacopio</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>vgj_zonaacopio_proyecto_vgj_proyectos</RelationshipName>
+                <FilteredViewIds />
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">yes</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Form for this entity." languagecode="1033" />
+      <Description description="Formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

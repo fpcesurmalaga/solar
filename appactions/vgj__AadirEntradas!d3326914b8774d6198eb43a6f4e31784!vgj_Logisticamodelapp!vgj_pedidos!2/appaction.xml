@@ -1,0 +1,36 @@
+<appaction uniquename="vgj__AadirEntradas!d3326914b8774d6198eb43a6f4e31784!vgj_Logisticamodelapp!vgj_pedidos!2">
+  <appmoduleid>
+    <uniquename>vgj_Logisticamodelapp</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Añadir Entradas">
+    <label description="Añadir Entradas" languagecode="3082" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>vgj_pedidos</logicalname>
+  </contextentity>
+  <contextvalue>vgj_pedidos</contextvalue>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>2</location>
+  <name>AadirEntradas!d3326914b8774d6198eb43a6f4e31784</name>
+  <onclickeventjavascriptfunctionname>getSelectedRecords</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>65d6a9d7-d104-f011-bae3-6045bd9dd2bc</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <sequence>50050005.0000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilityformulacomponentlibraryid>
+    <name>vgj_logisticamodelappdefaultcommandlibrary_41ef4</name>
+  </visibilityformulacomponentlibraryid>
+  <visibilityformulacomponentname>de9107bf808646a8856168e7c8e9ed2c</visibilityformulacomponentname>
+  <visibilityformulafunctionname>Visible</visibilityformulafunctionname>
+  <visibilitytype>1</visibilitytype>
+</appaction>

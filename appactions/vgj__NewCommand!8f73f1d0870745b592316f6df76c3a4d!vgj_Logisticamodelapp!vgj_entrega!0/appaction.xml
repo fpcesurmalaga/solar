@@ -1,0 +1,31 @@
+<appaction uniquename="vgj__NewCommand!8f73f1d0870745b592316f6df76c3a4d!vgj_Logisticamodelapp!vgj_entrega!0">
+  <appmoduleid>
+    <uniquename>vgj_Logisticamodelapp</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="NewCommand">
+    <label description="NewCommand" languagecode="3082" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>vgj_entrega</logicalname>
+  </contextentity>
+  <contextvalue>vgj_entrega</contextvalue>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>0</location>
+  <name>NewCommand!8f73f1d0870745b592316f6df76c3a4d</name>
+  <onclickeventformulacomponentlibraryid>
+    <name>vgj_logisticamodelappdefaultcommandlibrary_41ef4</name>
+  </onclickeventformulacomponentlibraryid>
+  <onclickeventformulacomponentname>27e0cb7f45c142b186560f9da89c7433</onclickeventformulacomponentname>
+  <onclickeventformulafunctionname>OnSelect</onclickeventformulafunctionname>
+  <onclickeventtype>1</onclickeventtype>
+  <origin>0</origin>
+  <sequence>100100015.0000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>0</visibilitytype>
+</appaction>

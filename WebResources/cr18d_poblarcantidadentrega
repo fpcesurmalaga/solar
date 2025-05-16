@@ -1,0 +1,15 @@
+function poblarCantidadDisponible(executionContext) {
+    var formContext = executionContext.getFormContext();
+    var pedidoId = formContext.getAttribute("vgj_pedido").getValue()[0].id; // Asumiendo que "vgj_pedido" es el campo lookup al pedido
+    
+    // Utiliza Xrm.WebApi para obtener la cantidad disponible del pedido
+    Xrm.WebApi.retrieveRecord("vgj_pedidos", pedidoId, "?$select=vgj_faltaentrega").then(
+        function success(result) {
+            var cantidadDisponible = result["vgj_faltaentrega"];
+            formContext.getAttribute("vgj_cantidaddisponible").setValue(cantidadDisponible);
+        },
+        function(error) {
+            console.error("Error al obtener la cantidad disponible: " + error.message);
+        }
+    );
+}

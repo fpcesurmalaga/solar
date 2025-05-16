@@ -1,0 +1,145 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "vgj_sharedcommondataserviceforapps_6c5ad"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "Cuando_se_agrega,_modifica_o_elimina_una_fila": {
+          "metadata": {
+            "operationMetadataId": "cb8d030e-643d-406d-a9b0-0e802bcbd420"
+          },
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "subscriptionRequest/message": 4,
+              "subscriptionRequest/entityname": "vgj_almacedetalle",
+              "subscriptionRequest/scope": 4
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "actions": {
+        "Enumerar_todas_entradas": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "3e7e2f06-04db-4ca2-9402-1f5cc9528ef0"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "ListRecords",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "vgj_almacedetalles",
+              "$select": "vgj_tipomovimiento,vgj_cantidadtotal",
+              "$filter": "_vgj_pedido_value eq '@{triggerOutputs()?['body/_vgj_pedido_value']}' and vgj_completo eq true and statecode eq 0 and vgj_tipomovimiento eq 'Entrada'\n",
+              "$expand": "vgj_pedido($select=vgj_articulo)\n\n\n"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Seleccionar_Cantidades": {
+          "runAfter": {
+            "Enumerar_todas_entradas": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "ebfb5d09-b578-4381-93c0-911c7344f194"
+          },
+          "type": "Select",
+          "inputs": {
+            "from": "@outputs('Enumerar_todas_entradas')?['body/value']",
+            "select": {
+              "Cantidad": "@item()?['vgj_cantidadtotal']"
+            }
+          }
+        },
+        "Formato_Datos": {
+          "runAfter": {
+            "Seleccionar_Cantidades": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "b02ac7f8-c1b0-4433-9d7a-ec3b7a0df3ee"
+          },
+          "type": "Compose",
+          "inputs": {
+            "root": {
+              "Numeros": "@body('Seleccionar_Cantidades')"
+            }
+          }
+        },
+        "Realizar_Suma": {
+          "runAfter": {
+            "Formato_Datos": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "4e68ef5d-732e-4bbc-adf2-ee7d61d172d7"
+          },
+          "type": "Compose",
+          "inputs": "@xpath(xml(outputs('Formato_Datos')), 'sum(/root/Numeros)')"
+        },
+        "Actualizar_una_fila": {
+          "runAfter": {
+            "Realizar_Suma": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "fb2b2d0b-dde2-4234-99af-b3a09155aa05"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "UpdateOnlyRecord",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "vgj_pedidoses",
+              "recordId": "@triggerOutputs()?['body/_vgj_pedido_value']",
+              "item/vgj_entrega": "@outputs('Realizar_Suma')"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

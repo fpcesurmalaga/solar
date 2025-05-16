@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>vgj_Logisticamodelapp</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="area_75593b81" ResourceId="SitemapDesigner.NewTitle" DescriptionResourceId="SitemapDesigner.NewTitle" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="3082" Title="Área 1" />
+        <Title LCID="1033" Title="Area 1" />
+      </Titles>
+      <Group Id="group_5522c2e3" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="3082" Title="Proyectos" />
+          <Title LCID="1033" Title="Projects" />
+        </Titles>
+        <SubArea Id="subarea_0fde491d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="vgj_proyectos" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_b2c81251" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="vgj_entrega" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="group_fdd73600" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="3082" Title="Gestión" />
+          <Title LCID="1033" Title="Management" />
+        </Titles>
+        <SubArea Id="subarea_78924e96" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="vgj_clientes" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_e2e37c5d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="vgj_entornos" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_daa1899c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="vgj_proveedores" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_3e68ed59" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="vgj_ordenescompras" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="group_almacen" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="3082" Title="Almacén" />
+        </Titles>
+        <SubArea Id="subarea_ce106e13" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="vgj_familiaalmacen" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_c56d9f69" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="vgj_articulos" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_4a2fd664" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="vgj_pedidos" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_810a0db4" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="vgj_articulocliente" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_6aec5950" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="vgj_articuloclientecabecera" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_a53d67b5" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="vgj_articulosubcontrata" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_1ffbc5e1" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="vgj_entregacliente" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_1d04328b" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="vgj_zonaacopio" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Logistica model app" languagecode="1033" />
+    <LocalizedName description="Logistica model app" languagecode="3082" />
+  </LocalizedNames>
+</AppModuleSiteMap>

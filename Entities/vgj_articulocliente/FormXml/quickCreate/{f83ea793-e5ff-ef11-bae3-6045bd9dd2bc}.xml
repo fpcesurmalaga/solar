@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f83ea793-e5ff-ef11-bae3-6045bd9dd2bc}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{07eb1a92-6e21-4476-b62b-80566b6693dd}">
+          <labels>
+            <label description="Nueva pestaña" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{132f9dca-cd91-4b3c-a6b7-5a0ad57b469d}" visible="false">
+                  <labels>
+                    <label description="Información Cabecera" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{ffa27d85-9842-4c84-bc47-1588b01aa231}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{d78aed56-44cd-4d11-a036-d00ca0aced50}">
+                  <labels>
+                    <label description="Información Artículo" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{0721ee3b-3d8b-4c18-b809-4cb5abe46441}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b535ef44-1a75-4ac2-bc33-2038a8372224}" locklevel="0" colspan="1" rowspan="1" labelid="{ed65aefb-62c0-455d-b3cf-babbcf43a8a1}">
+                        <labels>
+                          <label description="Artículo" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_articulo" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vgj_articulo" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{573f1bc1-1337-47b7-b236-45fcd7774370}" locklevel="0" colspan="1" rowspan="1" labelid="{2b1e5b4b-eb74-4998-9a3a-e993a230101a}">
+                        <labels>
+                          <label description="Planificado" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_planificado" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="vgj_planificado" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{904d0295-27a4-437f-9af3-26c33d627fe7}" locklevel="0" colspan="1" rowspan="1" labelid="{28f2e990-b398-40e6-983c-3f5e3c1bcadd}">
+                        <labels>
+                          <label description="Precio" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_precio" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="vgj_precio" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ce2ea25e-8392-4474-a1a8-a01eab227282}" locklevel="0" colspan="1" rowspan="1" labelid="{806073d7-90cd-4c5e-98fc-cbc72cffce62}">
+                        <labels>
+                          <label description="ETA" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_eta" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="vgj_eta" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{a34e92f8-e764-4e59-90eb-735952711101}">
+                  <labels>
+                    <label description="Información Complementaria " languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{d0b75cc4-e25b-4530-b0d0-cc9b94913542}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04356537-9250-40c2-a9ae-e540dafff113}" locklevel="0" colspan="1" rowspan="1" labelid="{1569275c-f9a4-4d4c-ac29-3e3111aaeb5c}">
+                        <labels>
+                          <label description="Notas" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_notas" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="vgj_notas" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Artículo Cliente formulario de creación rápida" languagecode="3082" />
+    </LocalizedNames>
+  </systemform>
+</forms>

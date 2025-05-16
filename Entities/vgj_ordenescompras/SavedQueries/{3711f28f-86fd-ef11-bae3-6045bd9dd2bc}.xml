@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{3711f28f-86fd-ef11-bae3-6045bd9dd2bc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vgj_ordencompra" select="1" icon="1" preview="1">
+        <row name="result" id="vgj_ordenescomprasid">
+          <cell name="vgj_ordencompra" width="200" />
+          <cell name="vgj_proveedor" width="100" />
+          <cell name="vgj_personacontacto" width="139" />
+          <cell name="vgj_telefono" width="100" />
+          <cell name="vgj_email" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="vgj_ordenescompras">
+          <attribute name="vgj_ordencompra" />
+          <attribute name="vgj_ordenescomprasid" />
+          <attribute name="vgj_proveedor" />
+          <attribute name="vgj_personacontacto" />
+          <attribute name="vgj_telefono" />
+          <attribute name="vgj_email" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Vista Añadir Artículos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a91d7130-6f4c-4a41-93fc-aff962726bec}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{6cab0e81-5d17-4b8a-bf38-f80a3e293073}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{b5aaefcb-e85e-4164-8800-0afb2dd7808f}">
+                  <labels>
+                    <label description="Información Cabecera" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8d788c4d-5d21-4b72-8099-9b2c774be3c9}">
+                        <labels>
+                          <label description="Nombre" languagecode="3082" />
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vgj_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{75b12ab2-c99e-4775-9afe-9b0612532f6b}" visible="false">
+                        <labels>
+                          <label description="Propietario" languagecode="3082" />
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="cd254ed4-1a22-46dd-9cdf-02ed8b93b890" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Artículos Clientes" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{cc985349-1960-4225-8ca1-db8c0bbae807}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="Artículos Clientes" languagecode="3082" />
+                          <label description="Artículos Cliente" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>vgj_articulocliente_cabecera_vgj_articuloclientecabecera</RelationshipName>
+                            <TargetEntityType>vgj_articulocliente</TargetEntityType>
+                            <ViewId>{5d8eb2b4-3724-471d-86c2-b45ff820850f}</ViewId>
+                            <ViewIds>{5d8eb2b4-3724-471d-86c2-b45ff820850f}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{4e8f9e76-1824-493b-929f-c2f1c7866cf6}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{1ef1332b-a127-4901-a4ee-13387b791de2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{3020101e-ff3b-4332-b39f-73e9e9e01eff}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{e1eec5b5-0ec0-4f3c-bd85-4f18d99399af}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{cd0ee453-0c38-4557-9ed4-9328ec2dcf3f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{97d04e61-5b5c-48f1-8c2f-893fe2f1c6f6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{d2b13ba6-d318-4373-bf90-b5e8e9f26d7e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{03b316f0-bc50-4a2e-bb75-6033ee21216f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

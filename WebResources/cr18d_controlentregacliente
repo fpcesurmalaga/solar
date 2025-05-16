@@ -1,0 +1,60 @@
+async function onSave(executionContext) {
+
+    //Generamos la variables del cuadro de dialogo que se abrirá en caso correcto.
+    var alertStrings = { text: "El proceso finalizo correctamente", title: "CORRECTO", confirmButtonLabel: "Ok" };
+    var alertOptions = { height: 200, width: 450 };
+
+    //Generamos la variables del cuadro de dialogo que se abrirá en caso de error.
+    var alertStringsERROR = { text:"Ocurrió un error, intentelo de nuevo. Si el problema persiste contacte con el administrador", title:"ERROR", confirmButtonLabel:"Aceptar"};
+    var alertOptionsERROR = { height: 200, width: 450  };
+
+
+    var formContext = executionContext.getFormContext();
+    
+    var articuloClienteLookup = formContext.getAttribute("vgj_articulocliente").getValue();
+    var articuloClienteId = articuloClienteLookup[0].id.replace('{','').replace('}','');
+    
+    var entregaCantidad = formContext.getAttribute("vgj_cantidad").getValue();
+    
+
+    
+    
+
+
+    var data = {
+        // Capture los valores de los campos que necesita
+        recordID: articuloClienteId,
+        entregaCantidad: entregaCantidad
+        
+        
+    };
+    
+    
+
+    // Llamar a Power Automate
+    Xrm.Utility.showProgressIndicator("Procesando...");
+    try {
+        await fetch("https://prod-180.westeurope.logic.azure.com:443/workflows/4e4f2ddd4d364963884ab57a7a45846b/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=4LReXd0R1znDUJyEprhsD8kzYyGpHjrks-O8ztyLpHE",
+        {
+            "method":"POST",
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        })
+        console.log("Flow call finished Ok");
+        Xrm.Utility.closeProgressIndicator();
+        Xrm.Navigation.openAlertDialog(alertStrings, alertOptions);
+    
+    } catch (error) {
+    
+    Xrm.Utility.closeProgressIndicator();
+    console.log(`
+    Flow Call finished with error. Status code: ${error}
+    `)
+    Xrm.Navigation.openAlertDialog(alertStringsERROR, alertOptionsERROR);
+    }
+    
+    
+    
+}

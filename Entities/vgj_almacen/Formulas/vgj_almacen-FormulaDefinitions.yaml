@@ -1,0 +1,5 @@
+vgj_tipomovimientotexto: |-
+    =If(Value(vgj_tipo) = 949210000, "Entrada",
+    
+    Value(vgj_tipo) = 949210001, "Traspaso",
+    Value(vgj_tipo)= 949210002, "Salida")

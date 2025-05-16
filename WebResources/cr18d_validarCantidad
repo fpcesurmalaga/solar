@@ -1,0 +1,10 @@
+function validarCantidad(executionContext) {
+    var formContext = executionContext.getFormContext();
+    var cantidadIngresada = formContext.getAttribute("vgj_cantidad").getValue();
+    var cantidadDisponible = formContext.getAttribute("vgj_cantidaddisponible").getValue();
+    
+    if (cantidadIngresada > cantidadDisponible) {
+        alert("La cantidad ingresada no puede ser mayor a la cantidad disponible.");
+        formContext.getAttribute("vgj_cantidad").setValue(cantidadDisponible); // Opcionalmente, ajusta la cantidad a la disponible
+    }
+}

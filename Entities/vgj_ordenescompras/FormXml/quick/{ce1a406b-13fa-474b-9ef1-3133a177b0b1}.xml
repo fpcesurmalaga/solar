@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ce1a406b-13fa-474b-9ef1-3133a177b0b1}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{7c97eaa1-2b2a-4cfe-aa1e-db31f8e6eef7}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b51d1fea-804f-4225-8f50-a6dd16e55d6a}">
+                  <labels>
+                    <label description="GENERAL" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d038909a-9512-4a2d-954e-b45593f6b2e4}">
+                        <labels>
+                          <label description="Orden Compra" languagecode="3082" />
+                          <label description="Orden Compra" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_ordencompra" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vgj_ordencompra" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{563a0204-c4fd-4070-b0f1-f91613d7b0bd}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Proveedor" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_proveedor" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vgj_proveedor" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a2bfb26a-b255-4788-bad2-22acc640f4d7}" visible="false">
+                        <labels>
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+  </systemform>
+</forms>

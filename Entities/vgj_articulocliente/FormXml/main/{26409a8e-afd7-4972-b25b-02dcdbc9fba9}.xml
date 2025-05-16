@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{26409a8e-afd7-4972-b25b-02dcdbc9fba9}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{c1227ba4-f2b7-4850-8827-01d7cbf31e4d}" IsUserDefined="1" name="tab_general">
+          <labels>
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{8a72da66-209a-49bc-8296-9e1a9e4345ac}" name="sec_infoArticulo" columns="111">
+                  <labels>
+                    <label description="Información Artículo" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{41988a87-ba35-48d0-aeb8-4a2ce9bbe818}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Artículo" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_articulo" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vgj_articulo" disabled="false" />
+                      </cell>
+                      <cell id="{6f1e7f31-362a-41a0-b435-a1d995dbd3f3}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Planificado" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_planificado" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="vgj_planificado" disabled="false" />
+                      </cell>
+                      <cell id="{232187e3-b685-4258-8950-6a8f339caeae}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Precio" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_precio" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="vgj_precio" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{634baa55-bdd6-4759-95c1-41984fb69155}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="ETA" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_eta" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="vgj_eta" disabled="false" />
+                      </cell>
+                      <cell id="{167464e0-0ae4-46b3-ac32-44e5363236e0}" locklevel="0" colspan="2" rowspan="1">
+                        <labels>
+                          <label description="Notas" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_notas" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="vgj_notas" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a69277c4-3c75-4f3c-aa4d-e74554551069}" colspan="1" rowspan="1" showlabel="false" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="3082" />
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vgj_name" />
+                      </cell>
+                      <cell locklevel="0" id="{2ca84947-94f2-4b12-a72e-4c41b7167fa8}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{40a9b700-b4a7-4ec4-9df8-89a188324ba3}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d7ed5c08-517e-43f6-a8e3-fe04a33f65c9}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Cabecera" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_cabecera" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vgj_cabecera" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{55124f79-5a98-48bc-a556-7fb842d407ee}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{1d53070e-7aef-47f3-ad65-1900c0f99609}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{20669bdb-9a52-4e83-b708-b61460ff14d0}" visible="false">
+                        <labels>
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell locklevel="0" id="{73bfd3bc-e882-42f2-b166-9d1d1825aaa9}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{725feec1-bb4a-42b8-9551-fd0da59578d6}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_general_section_3" id="da18c1de-81e7-4f5a-a114-ea0ecdcd854e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Entregas" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{4cd180eb-347a-491e-9168-335ddc8ed963}" colspan="1" rowspan="6" showlabel="false">
+                        <labels>
+                          <label description="New cuadrícula editable" languagecode="3082" />
+                          <label description="Entregas Cliente" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="cc_1741860849375" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{231d1799-2d43-4459-abfb-e9d379ffaf38}">
+                          <parameters>
+                            <TargetEntityType>vgj_entregacliente</TargetEntityType>
+                            <ViewId>{1FFE42E1-0062-458B-ACEE-A7FA21CE0FAD}</ViewId>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <IsUserView>false</IsUserView>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <RelationshipName>vgj_entregacliente_articulocliente_vgj_articulocliente</RelationshipName>
+                            <ViewIds>{1FFE42E1-0062-458B-ACEE-A7FA21CE0FAD}</ViewIds>
+                            <ChartGridMode>Grid</ChartGridMode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{c8c9592f-77cd-4ddc-bc2e-ef7977198d77}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{5a718859-3adc-4ead-9651-d66ebd6ee4f6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{84bc277f-ed9b-487d-b087-490d96a33ddc}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{76a99495-0008-40e5-9632-e401541eba20}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{f804cdd8-c3f2-4b52-b049-39657b00f8e6}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{81f9ed85-0973-498d-974e-a1025197843f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{81afdeda-c123-4962-8cd6-6e81a2176954}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{293d4128-da07-4123-be54-add4ba876763}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription forControl="{231d1799-2d43-4459-abfb-e9d379ffaf38}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters>
+              <TargetEntityType>vgj_entregacliente</TargetEntityType>
+              <ViewId>{1FFE42E1-0062-458B-ACEE-A7FA21CE0FAD}</ViewId>
+              <EnableViewPicker>false</EnableViewPicker>
+              <IsUserView>false</IsUserView>
+              <RecordsPerPage>4</RecordsPerPage>
+            </parameters>
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters>
+              <TargetEntityType>vgj_entregacliente</TargetEntityType>
+              <ViewId>{1FFE42E1-0062-458B-ACEE-A7FA21CE0FAD}</ViewId>
+              <EnableViewPicker>false</EnableViewPicker>
+              <IsUserView>false</IsUserView>
+              <RecordsPerPage>4</RecordsPerPage>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{1FFE42E1-0062-458B-ACEE-A7FA21CE0FAD}</ViewId>
+                <TargetEntityType>vgj_entregacliente</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>vgj_entregacliente_articulocliente_vgj_articulocliente</RelationshipName>
+                <FilteredViewIds />
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{1FFE42E1-0062-458B-ACEE-A7FA21CE0FAD}</ViewId>
+                <TargetEntityType>vgj_entregacliente</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>vgj_entregacliente_articulocliente_vgj_articulocliente</RelationshipName>
+                <FilteredViewIds />
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{1FFE42E1-0062-458B-ACEE-A7FA21CE0FAD}</ViewId>
+                <TargetEntityType>vgj_entregacliente</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>vgj_entregacliente_articulocliente_vgj_articulocliente</RelationshipName>
+                <FilteredViewIds />
+              </data-set>
+              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
+              <ListLayoutDirection type="Enum" static="true">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
+              <EnableJumpBar type="Enum" static="true">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

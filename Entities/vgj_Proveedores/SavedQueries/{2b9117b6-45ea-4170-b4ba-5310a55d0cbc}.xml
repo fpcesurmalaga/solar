@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2b9117b6-45ea-4170-b4ba-5310a55d0cbc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vgj_idproveedor" select="1" icon="1" preview="1">
+        <row name="result" id="vgj_proveedoresid">
+          <cell name="vgj_idproveedor" width="146" />
+          <cell name="vgj_nombre" width="150" />
+          <cell name="vgj_direccion" width="150" />
+          <cell name="vgj_ciudad" width="150" />
+          <cell name="vgj_provincia" width="150" />
+          <cell name="vgj_telefono" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="vgj_proveedores">
+          <attribute name="vgj_proveedoresid" />
+          <attribute name="vgj_idproveedor" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="vgj_nombre" />
+          <attribute name="vgj_direccion" />
+          <attribute name="vgj_ciudad" />
+          <attribute name="vgj_provincia" />
+          <attribute name="vgj_telefono" />
+          <order attribute="vgj_nombre" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Proveedores activo" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

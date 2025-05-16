@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{31d13871-4018-4c58-8cfd-ae7d64d3d2e0}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vgj_subfamiliaespanol" select="1" icon="1" preview="1">
+        <row name="result" id="vgj_subfamiliaalmacenid">
+          <cell name="vgj_subfamiliaespanol" width="300" />
+          <cell name="vgj_subfamiliaingles" width="150" />
+          <cell name="vgj_m21000u" width="150" />
+          <cell name="vgj_permitirlotes" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="vgj_subfamiliaalmacen">
+          <attribute name="vgj_subfamiliaalmacenid" />
+          <attribute name="vgj_subfamiliaespanol" />
+          <order attribute="vgj_subfamiliaespanol" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="vgj_subfamiliaingles" />
+          <attribute name="vgj_m21000u" />
+          <attribute name="vgj_permitirlotes" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Subfamilia Almacen activo" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

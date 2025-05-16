@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{f0c65a14-cd04-f011-bae3-6045bd9dd2bc}</WebResourceId>
+  <Name>cr18d_filtrarpedidosordencompraqv</Name>
+  <DisplayName>Filtrar Pedidos Orden Compra Quick View</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cr18d_filtrarpedidosordencompraqvF0C65A14-CD04-F011-BAE3-6045BD9DD2BC</FileName>
+</WebResource>

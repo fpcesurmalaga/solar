@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c4c741c7-4ef4-ef11-be1f-6045bd9dd2bc}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{0f7e6ec1-17e1-4807-8fc5-7f9b5d8e3f70}">
+          <labels>
+            <label description="Nueva pestaña" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{19897e53-269c-44b1-b3f5-52f12f4dd812}" visible="false">
+                  <labels>
+                    <label description="Nueva sección" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{262e7720-d551-4a16-9375-e3a5e45f01ec}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="true" labelid="{05cbeb9d-d200-4b8b-bfb4-4493a7323deb}">
+                  <labels>
+                    <label description="Información Entrega" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c8f16c39-41c5-4986-b9f9-2886e2d77fa6}" locklevel="1" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Faltante Entrega" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_cantidaddisponible" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="vgj_cantidaddisponible" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1b391713-e3d6-4922-a471-0289a011806e}" locklevel="0" colspan="1" rowspan="1" labelid="{a99f62b9-73d9-4227-8397-72ec38f03c87}" visible="false">
+                        <labels>
+                          <label description="Entrega" languagecode="3082" />
+                          <label description="Entrega" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_entrega" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vgj_entrega" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4d1bdfea-e05d-4971-a72b-e0252406886e}" locklevel="0" colspan="1" rowspan="1" labelid="{eaf6d445-55e8-45c7-a5fd-ebfe903a4192}">
+                        <labels>
+                          <label description="Cantidad" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_cantidad" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="vgj_cantidad" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ec915412-a8e5-4888-9b10-cf8ae25c3b71}" locklevel="0" colspan="1" rowspan="1" labelid="{1ba329cb-bed2-4931-9241-bbb98f449a8b}">
+                        <labels>
+                          <label description="Fecha Entrega" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_fechaentrega" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="vgj_fechaentrega" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5c8b5a0c-2d6f-4f55-a591-46f6ca29ad91}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Pedido" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_pedido" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vgj_pedido" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{b4029644-ff17-4a7d-bbcb-bdecdb965c7a}">
+                  <labels>
+                    <label description="Nueva sección" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{e6ef973f-c9c9-4649-91b8-abbee6bfac10}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+      <formLibraries>
+        <Library name="cr18d_validarCantidad" libraryUniqueId="{a52d70b5-ceed-4873-b33e-442b0d395798}" />
+        <Library name="cr18d_controlEntregas" libraryUniqueId="{8357a66d-ddd4-47ab-b04a-5f41e7f64b55}" />
+        <Library name="cr18d_controlEntregasAsync" libraryUniqueId="{24cf2f2a-fd5f-4a60-9bcd-3c79d5953fc5}" />
+        <Library name="cr18d_poblarcantidadentrega" libraryUniqueId="{ad0330a9-eb6b-45d6-8fa7-762746600d51}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="poblarCantidadDisponible" libraryName="cr18d_validarCantidad" handlerUniqueId="{cb5ea4ef-6734-4cc3-a1a6-765cd47e9f66}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="vgj_cantidad">
+          <Handlers>
+            <Handler functionName="validarCantidad" libraryName="cr18d_validarCantidad" handlerUniqueId="{1baffecc-be73-4df9-b9f5-28aaabf3c647}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onsave" application="false" active="false">
+          <Handlers>
+            <Handler functionName="onSave" libraryName="cr18d_controlEntregasAsync" handlerUniqueId="{22c09377-209c-4d64-a33e-aa8651cee2cb}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Crear Entrega" languagecode="3082" />
+    </LocalizedNames>
+  </systemform>
+</forms>

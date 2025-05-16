@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7e9e4917-511e-4186-986f-cc9639acd4fc}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{209bc133-69e6-483f-a0f8-c3d03d4d90c2}" IsUserDefined="1" name="generalZonaAcopio">
+          <labels>
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b7a005cc-e50f-45c0-8a52-32ac99dfa6e7}" columns="11" name="general_zonaAcopio">
+                  <labels>
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{78acba61-59d1-4aad-9e5a-06ac1dd982cf}">
+                        <labels>
+                          <label description="Nombre" languagecode="3082" />
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vgj_name" />
+                      </cell>
+                      <cell id="{128e3ab7-5800-42a3-ac8d-e1938e057155}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Área (m2)" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_area" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="vgj_area" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ec580bcc-60f0-4df9-a8c3-3150920b89f2}" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell id="{d87ab8d0-2e20-4097-9517-60b0666fbc41}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Notas" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_notas" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vgj_notas" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5d9f9785-a026-429c-88ec-89c129886e45}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Stock Mínimo" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_stockminimo" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="vgj_stockminimo" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{bd90aedc-165a-46be-b7fe-ac13fe9b8b55}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="sectionEntradas" id="614d6cd1-7399-4c13-a514-f51d1641903e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Entradas" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{4a5914cd-e789-49d6-a6e4-1a05241dd962}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1742558995325" languagecode="3082" />
+                          <label description="Almacen Detalles" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>vgj_almacedetalle_destino_vgj_zonaacopio</RelationshipName>
+                            <TargetEntityType>vgj_almacedetalle</TargetEntityType>
+                            <ViewId>{d7911bb1-9513-4334-98c3-ca441084f8b9}</ViewId>
+                            <ViewIds>{d7911bb1-9513-4334-98c3-ca441084f8b9}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="sectionSalidas" id="26cf4dc5-fcfd-4af5-88eb-c2890b4a85da" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Salidas" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{30d9de2e-78c0-409a-8871-b58a650d9e09}" rowspan="4" colspan="1" auto="false" availableforphone="true" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1742559155153" languagecode="3082" />
+                          <label description="Almacen Detalles" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>vgj_almacedetalle_origen_vgj_zonaacopio</RelationshipName>
+                            <TargetEntityType>vgj_almacedetalle</TargetEntityType>
+                            <ViewId>{D7911BB1-9513-4334-98C3-CA441084F8B9}</ViewId>
+                            <ViewIds>{D7911BB1-9513-4334-98C3-CA441084F8B9}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{35f139f4-076d-4f5d-bd14-99ce709bd46f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{12a80bfc-fe31-4bf9-9b84-9047c3a8d831}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{4851396c-9b60-4711-854f-8aa2f3388b4b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{f5d3bd8b-0a10-4f7e-86a8-aa700a73fb72}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{4b9223d0-f728-4458-8fc5-a6d2842e92d6}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{2d0aaa54-ced9-47ab-b21b-a1044a8b241b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{6edcc1c5-b0f3-4d30-80eb-bb3e4503bb70}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+            <cell id="{e3acafc1-5ee1-4142-80e7-f2a744df7469}" showlabel="false">
+              <labels>
+                <label description="" languagecode="3082" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

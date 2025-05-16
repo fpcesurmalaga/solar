@@ -1,0 +1,10 @@
+function mostrarEntregas(executionContext) {
+    var formContext = executionContext.getFormContext();
+    var seccion = formContext.ui.tabs.get("generalPedidos").sections.get("pedidosEntregas");
+    
+    if (formContext.ui.getFormType() === 2) { // Modo editar
+        seccion.setVisible(true);
+    } else {
+        seccion.setVisible(false);
+    }
+}

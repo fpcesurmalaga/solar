@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{7cba123f-38c2-4059-8edb-9e7cc80c0a6a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vgj_name" select="1" icon="1" preview="1">
+        <row name="result" id="vgj_almacedetalleid">
+          <cell name="vgj_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="vgj_almacedetalle">
+          <attribute name="vgj_almacedetalleid" />
+          <attribute name="vgj_name" />
+          <attribute name="createdon" />
+          <order attribute="vgj_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Almacen Detalles inactivo" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

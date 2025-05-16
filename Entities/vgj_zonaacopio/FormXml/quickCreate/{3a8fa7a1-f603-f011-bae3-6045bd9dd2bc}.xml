@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3a8fa7a1-f603-f011-bae3-6045bd9dd2bc}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{01a94d9e-6879-4db8-91c0-a5f4c843c3d9}">
+          <labels>
+            <label description="Nueva pestaña" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{5440441a-e009-4794-b2a9-c4129a6e9fac}">
+                  <labels>
+                    <label description="Datos Zona Acopio" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{1bc25664-9805-476a-b8cd-c60c432a9825}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b9501f0b-7977-4142-8c47-6be9e390265d}" locklevel="0" colspan="1" rowspan="1" labelid="{a0c5f949-c9f3-4814-9627-53e0a37e5fe5}">
+                        <labels>
+                          <label description="Nombre" languagecode="3082" />
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vgj_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{002436dc-de12-46e3-b18a-18b9b79cedb6}" locklevel="0" colspan="1" rowspan="1" labelid="{76d96361-7cc5-4f20-bd04-e8f5f8e4a264}">
+                        <labels>
+                          <label description="Stock Mínimo" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_stockminimo" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="vgj_stockminimo" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d8a56618-9797-405c-9c63-40bf640d5b86}" locklevel="0" colspan="1" rowspan="1" labelid="{4fbff66a-b258-49a3-92df-296206ed566f}">
+                        <labels>
+                          <label description="Área (m2)" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_area" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="vgj_area" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{54aecd2b-dccd-446a-9db9-bccf7207b8e6}" locklevel="0" colspan="1" rowspan="1" labelid="{06f18f1f-cbe6-4ab4-bdf9-a8134abcee15}">
+                        <labels>
+                          <label description="Notas" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_notas" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vgj_notas" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{519c06a7-c9f3-48cb-baec-d36a54afd3c9}" locklevel="0" colspan="1" rowspan="1" visible="false" labelid="{01bc8b5b-2e33-4a4d-9b61-ac02f3eebb89}">
+                        <labels>
+                          <label description="Proyecto" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_proyecto" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vgj_proyecto" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{17e9cf69-8eb4-4d70-a120-c6f8906f65a5}">
+                  <labels>
+                    <label description="Nueva sección" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{c9ef8245-bead-4aeb-a143-b9ef70a56ca0}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{fdb34374-249e-44d0-b0c9-361c643fbe5f}">
+                  <labels>
+                    <label description="Nueva sección" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{1f4b801c-428b-407c-8acd-590c7c7b8bd6}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Crear Zona Acopio" languagecode="3082" />
+    </LocalizedNames>
+  </systemform>
+</forms>

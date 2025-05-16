@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{29d47550-93fd-ef11-bae3-6045bd9dd2bc}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{086049c7-891f-46c1-865b-75727607840d}">
+          <labels>
+            <label description="Nueva pestaña" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{b5566e8f-6409-4e95-af40-a3aaaa288a56}">
+                  <labels>
+                    <label description="Artículo" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{f4920385-30f2-4355-8075-fd3c5f109176}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{988ccd63-9f32-418a-9257-15892b49ee5f}" locklevel="0" colspan="1" rowspan="1" labelid="{6a62e69f-c19d-46db-a78b-34e6e67e6903}">
+                        <labels>
+                          <label description="Nombre" languagecode="3082" />
+                          <label description="Nombre" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_nombre" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vgj_nombre" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{60431faa-5270-4f76-bcab-a34554797b89}" locklevel="0" colspan="1" rowspan="1" labelid="{f3a8d0f5-2af7-4a41-ac78-45e56c0ef1be}">
+                        <labels>
+                          <label description="Marca" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_marca" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vgj_marca" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a27a0426-0a16-4b2b-88df-db0fd73f9a8f}" locklevel="0" colspan="1" rowspan="1" labelid="{353125d0-1629-412d-b9d3-bb51063e6ca9}">
+                        <labels>
+                          <label description="Código" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_codigo" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vgj_codigo" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{15f21fa2-f98a-48aa-a491-6424ec221df6}" locklevel="0" colspan="1" rowspan="1" labelid="{3f041fc7-32e4-4e1f-b30e-8b4f696c84ec}">
+                        <labels>
+                          <label description="Código Barras" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_codigobarras" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vgj_codigobarras" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6219fe53-4aec-4544-b3c3-6670034c5643}" locklevel="0" colspan="1" rowspan="1" labelid="{cc7255b7-1ea4-433b-95d1-0eeac20d0700}">
+                        <labels>
+                          <label description="Stock" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_stock" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="vgj_stock" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6c386ae2-ca87-488c-b53e-b40f695da3eb}" locklevel="0" colspan="1" rowspan="1" labelid="{43ec6498-f9c6-4fa6-aa0e-ac5fa9f67d56}">
+                        <labels>
+                          <label description="Código Grupo" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_codigogrupo" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vgj_codigogrupo" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{829b46e9-a4c1-4f01-85ab-4d41a37ccfc5}" locklevel="0" colspan="1" rowspan="1" labelid="{862d8459-31c8-4e40-b225-c8f61c934f47}">
+                        <labels>
+                          <label description="Notas" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_notas" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="vgj_notas" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{7b388461-439b-4b4a-914a-ea15db33b085}">
+                  <labels>
+                    <label description="Clasificación" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{29b7678f-2d40-4bbc-a1bb-f99c4c350946}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9fd09a21-6e55-4a2a-83ae-10206f38ee5b}" locklevel="0" colspan="1" rowspan="1" labelid="{b8fabfc3-94bb-4ca4-869a-bbd0a910a914}">
+                        <labels>
+                          <label description="Familia" languagecode="3082" />
+                        </labels>
+                        <control id="cr18d_familia" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr18d_familia" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{24eedf0b-632f-42ac-a9c4-41daea34fece}" locklevel="0" colspan="1" rowspan="1" labelid="{6f2a99f0-a26d-42af-bd34-6a67f6c83fc1}">
+                        <labels>
+                          <label description="Subfamilia" languagecode="3082" />
+                        </labels>
+                        <control id="cr18d_subfamilia" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr18d_subfamilia" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{2bb7e742-8339-45c5-9916-bf5683c8b204}">
+                  <labels>
+                    <label description="Características" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{d50db6aa-fc8d-4717-9bbb-9e986b18da08}">
+                        <labels>
+                          <label description="" languagecode="3082" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ea4a9cc8-10c9-4e2d-901d-7a658095e61a}" locklevel="0" colspan="1" rowspan="1" labelid="{52ab5df6-9074-49b2-a88c-c4a67835cea7}">
+                        <labels>
+                          <label description="Medida" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_medida" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="vgj_medida" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a9c8ff3f-1fa8-4cea-bf34-4b01df958d56}" locklevel="0" colspan="1" rowspan="1" labelid="{9a7b10c8-f24c-4bf9-82ec-ada3a6047bb5}">
+                        <labels>
+                          <label description="Peso" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_peso" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="vgj_peso" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2f44e468-c879-4d01-a5a7-7d0eca200cc7}" locklevel="0" colspan="1" rowspan="1" labelid="{c8d435d6-b912-438c-9054-e3d2e1607a5c}">
+                        <labels>
+                          <label description="Ud / Bulto" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_udbulto" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="vgj_udbulto" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a40f3b12-d8c8-47bc-8da5-9523ede490a0}" locklevel="0" colspan="1" rowspan="1" labelid="{9068a884-e1df-435f-8fc0-abb273b13432}">
+                        <labels>
+                          <label description="Volumen (m3)" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_volumen" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="vgj_volumen" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Artículos formulario de creación rápida" languagecode="3082" />
+    </LocalizedNames>
+  </systemform>
+</forms>

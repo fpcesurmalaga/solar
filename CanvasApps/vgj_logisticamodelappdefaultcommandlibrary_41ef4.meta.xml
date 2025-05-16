@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>vgj_logisticamodelappdefaultcommandlibrary_41ef4</Name>
+  <AppVersion>2025-03-19T14:54:48Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.25031.10.0</CreatedByClientVersion>
+  <MinClientVersion>0.0.0.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"20250313T141610Z-3.25031.7.0","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.25022.8","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false","showStatusBar":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(251,101,60,1)</BackgroundColor>
+  <DisplayName>Logisticamodelapp_DefaultCommandLibrary</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage>Guardado por el diseñador de comandos.</CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds"},"dataSources":{"Entregas":{"entitySetName":"vgj_entregas","logicalName":"vgj_entrega"},"Pedidos":{"entitySetName":"vgj_pedidoses","logicalName":"vgj_pedidos"},"Artículos":{"entitySetName":"vgj_articuloses","logicalName":"vgj_articulos"},"Artículos Cliente":{"entitySetName":"vgj_articuloclientes","logicalName":"vgj_articulocliente"},"Entregas Cliente":{"entitySetName":"vgj_entregaclientes","logicalName":"vgj_entregacliente"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>1</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"vgj_entrega","componenttype":1},{"logicalname":"vgj_pedidos","componenttype":1},{"logicalname":"vgj_articulos","componenttype":1},{"logicalname":"vgj_articulocliente","componenttype":1},{"logicalname":"vgj_entregacliente","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/vgj_logisticamodelappdefaultcommandlibrary_41ef4_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/vgj_logisticamodelappdefaultcommandlibrary_41ef4_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

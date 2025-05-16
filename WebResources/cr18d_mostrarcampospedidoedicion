@@ -1,0 +1,25 @@
+function mostrarCamposPedidoEdicion(executionContext) {
+    var formContext = executionContext.getFormContext();
+    var formType = formContext.ui.getFormType();
+    
+    // Nombres de los campos que deseas ocultar en modo creación
+    var articulo = formContext.getControl("vgj_articulo");
+    var precio = formContext.getControl("vgj_precio");
+    var cantidad = formContext.getControl("vgj_cantidad");
+    var importe = formContext.getControl("vgj_importeeur");
+    
+    if (formType === 2) { // Modo edicion
+        if (articulo) {
+            articulo.setVisible(true);
+        }
+        if (precio) {
+            precio.setVisible(true);
+        }
+        if (cantidad) {
+            cantidad.setVisible(true);
+        }
+        if (importe) {
+            importe.setVisible(true);
+        }
+    }
+}

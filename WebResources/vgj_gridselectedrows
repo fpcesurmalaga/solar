@@ -1,0 +1,70 @@
+async function getSelectedRecords(){
+    var formContext = Xrm.Page;
+    var partidaPresupestaria = formContext.getAttribute("vgj_partidapresupuestaria").getValue();
+    var incoterm = formContext.getAttribute("vgj_incoterm").getValue();
+    var revision = formContext.getAttribute("vgj_revision").getValue();
+    if (!partidaPresupestaria || !incoterm || !revision){
+
+        alert("Por favor, rellene todos los campos de datos del pedido");
+    }else{
+
+    Xrm.Utility.showProgressIndicator("Please wait...");
+    
+    var ordenCompra = formContext.getAttribute("vgj_ordencompra").getValue();
+    var ordenCompraId = ordenCompra[0].id.replace('{', '').replace('}', '');
+    
+    var incotermID= incoterm[0].id.replace('{','').replace('}','');
+    
+    var gridControl = formContext.getControl('subGridArticulos');
+    var selectedRows = gridControl.getGrid().getSelectedRows();
+    var gridPedidos= formContext.getControl('sudgridPedidos');
+    var selectedData = [];
+    var data= {
+        "partidaPresupuestaria" : partidaPresupestaria,
+        "ordenCompraId" : ordenCompraId,
+        "incontermID" : incotermID,
+        "revision": revision,
+        "selectedData" : selectedData
+    }
+    var fetchXml = "<fetch version='1.0' output-format='xml-platform' mapping='logical' distinct='false'>" +
+    "<entity name='vgj_pedidos'>" +
+    
+    "<filter type='and'>" +
+    "<condition attribute='vgj_partidapresupuestaria' operator='like' value='%"+ partidaPresupestaria +"%' />" +
+    "</filter>" +
+    "</entity>" +
+    "</fetch>";
+    selectedRows.forEach(function(selectedRow){
+
+
+        var entity = selectedRow.getData().getEntity();
+        var entityId = entity.getId().replace('{', '').replace('}', '');
+
+        selectedData.push(
+            entityId
+        )
+    });
+
+    console.log( "Filas Seleccionadas: " + selectedData);
+    console.log("Partida: " + partidaPresupestaria);
+    console.log("Orden Compra: " + ordenCompraId);
+
+    await fetch("https://prod-98.westeurope.logic.azure.com:443/workflows/f65ed26f579d49aabe6ce82e5d24fa63/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=sPxZTyaDU8EzbjmKv9k39z1WRnWLBYKNrqwbKdfsqeY",
+        {
+
+            "method" : "POST",
+            "headers": {
+                "Content-Type": "application/JSON"
+            },
+            body: JSON.stringify(data)
+        }
+    );
+    console.log("Automate finalizado");
+formContext.ui.tabs.get("generalPedidos").sections.get("pedidosArticulosAdd").setVisible(true);
+    gridPedidos.setFilterXml(fetchXml);
+    gridPedidos.refresh();
+
+    Xrm.Utility.closeProgressIndicator();
+}
+
+}

@@ -1,0 +1,36 @@
+<appaction uniquename="vgj__NewCommand!95d557f327484fd59372cf0862ed8e04!vgj_Logisticamodelapp!vgj_articulos!2">
+  <appmoduleid>
+    <uniquename>vgj_Logisticamodelapp</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Añadir Seleccionados">
+    <label description="Añadir Seleccionados" languagecode="3082" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>vgj_articulos</logicalname>
+  </contextentity>
+  <contextvalue>vgj_articulos</contextvalue>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>2</location>
+  <name>NewCommand!95d557f327484fd59372cf0862ed8e04</name>
+  <onclickeventjavascriptfunctionname>getSelectedRecords</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>c80f0b09-33fb-ef11-bae3-6045bd9dd2bc</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <sequence>50050005.0000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilityformulacomponentlibraryid>
+    <name>vgj_logisticamodelappdefaultcommandlibrary_41ef4</name>
+  </visibilityformulacomponentlibraryid>
+  <visibilityformulacomponentname>2cb4fe99a35341d0a6d610190e5b8e8f</visibilityformulacomponentname>
+  <visibilityformulafunctionname>Visible</visibilityformulafunctionname>
+  <visibilitytype>1</visibilitytype>
+</appaction>

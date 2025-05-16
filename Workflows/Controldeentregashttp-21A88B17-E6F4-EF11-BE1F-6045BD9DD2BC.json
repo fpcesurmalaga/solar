@@ -1,0 +1,162 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "vgj_sharedcommondataserviceforapps_6c5ad"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "98d47906-8796-447d-a42f-c1d3f6a887b9"
+          },
+          "type": "Request",
+          "kind": "Http",
+          "inputs": {
+            "triggerAuthenticationType": "All"
+          }
+        }
+      },
+      "actions": {
+        "Buscar_todas_entregas": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "94e7e8ec-0c6b-457a-8193-33b6cfd60876"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "ListRecords",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "vgj_entregas",
+              "$select": "vgj_cantidad",
+              "$filter": "_vgj_pedido_value eq '@{triggerBody()?['recordID']}' and statecode eq 0"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Seleccionar_Cantidades": {
+          "runAfter": {
+            "Buscar_todas_entregas": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "675915ac-44fc-40b8-a628-a73f3a3468fc"
+          },
+          "type": "Select",
+          "inputs": {
+            "from": "@outputs('Buscar_todas_entregas')?['body/value']",
+            "select": {
+              "Cantidad": "@item()?['vgj_cantidad']"
+            }
+          }
+        },
+        "Formato_Datos": {
+          "runAfter": {
+            "Seleccionar_Cantidades": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "8aa743d9-1319-4d35-b9f2-208a13ec3e2c"
+          },
+          "type": "Compose",
+          "inputs": {
+            "root": {
+              "Numeros": "@body('Seleccionar_Cantidades')"
+            }
+          }
+        },
+        "Realizar_Suma": {
+          "runAfter": {
+            "Formato_Datos": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "183ea9b6-12af-4568-9c89-b796a39ab302"
+          },
+          "type": "Compose",
+          "inputs": "@xpath(xml(outputs('Formato_Datos')),'sum(/root/Numeros)')"
+        },
+        "Actualizar_una_fila": {
+          "runAfter": {
+            "Total": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "f1b4ecd9-de9b-48ed-b062-b4a57fc538f2"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "UpdateOnlyRecord",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "vgj_pedidoses",
+              "recordId": "@triggerBody()?['recordID']",
+              "item/vgj_unidadesentregadas": "@outputs('Total')"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Respuesta": {
+          "runAfter": {
+            "Actualizar_una_fila": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "78cb6db1-6af3-4a0a-aa98-35a86f28bc09"
+          },
+          "type": "Response",
+          "kind": "Http",
+          "inputs": {
+            "statusCode": 200
+          }
+        },
+        "Total": {
+          "runAfter": {
+            "Realizar_Suma": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "d4954d89-0230-415e-8744-38317f50f4e1"
+          },
+          "type": "Compose",
+          "inputs": "@add(outputs('Realizar_Suma'),triggerBody()?['entregaCantidad'])"
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

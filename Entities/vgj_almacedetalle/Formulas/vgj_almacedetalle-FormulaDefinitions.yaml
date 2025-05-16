@@ -1,0 +1,10 @@
+vgj_articulo: =vgj_pedido.vgj_articulo.vgj_nombre
+vgj_cantidadpo: =vgj_pedido.vgj_cantidad
+vgj_cantidadtotal: =vgj_bultos * vgj_unidades
+vgj_completo: =!IsBlank(vgj_bultos) && !IsBlank(vgj_unidades)
+vgj_pendiente: =vgj_cantidadpo - (vgj_entrada + vgj_devolucion)
+vgj_porcentaje: |-
+    =Concatenate(Text(Round((((vgj_entrada + vgj_devolucion) / vgj_cantidadpo) * 100), 0), "###"), "%")
+vgj_porcentajetramitado: |
+    =Text(Round((((vgj_entrada + vgj_devolucion) / vgj_cantidadpo) * 100), 0), "###") && "%"
+vgj_tipomovimiento: =vgj_almacen.vgj_tipomovimientotexto

@@ -1,0 +1,33 @@
+function onSave(executionContext) {
+    var formContext = executionContext.getFormContext();
+    var pedidoLookup = formContext.getAttribute("vgj_pedido").getValue();
+    var pedidoId = pedidoLookup[0].id.replace('{','').replace('}','');
+    var pedidoEntidad = pedidoLookup[0].entityType;
+
+    console.log( "Pedido ID: " + pedidoId);
+    console.log("Pedido tipo:" + pedidoEntidad)
+
+
+    var data = {
+        // Capture los valores de los campos que necesita
+        recordID: pedidoId
+        
+    };
+    
+    // Llamar a Power Automate
+    Xrm.Utility.showProgressIndicator("Procesando...");
+    var req = new XMLHttpRequest();
+    req.open("POST", "https://prod-01.westeurope.logic.azure.com:443/workflows/dc7aaf870bfd467c857323c354e7a0f2/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=JI_E5-d9LiLAybz-fyEI0fkveztEIkdS1E-AENIGGCQ", true);
+    req.setRequestHeader("Content-Type", "application/json");
+    req.onreadystatechange = function() {
+        if (this.readyState === 4) {
+            Xrm.Utility.closeProgressIndicator();
+            if (this.status === 200) {
+                Xrm.Navigation.openAlertDialog({ text: "Proceso completado con éxito." });
+            } else {
+                Xrm.Navigation.openAlertDialog({ text: "Error al procesar." });
+            }
+        }
+    };
+    req.send(JSON.stringify(data));
+}

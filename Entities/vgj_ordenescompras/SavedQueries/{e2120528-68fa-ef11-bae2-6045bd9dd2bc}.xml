@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{e2120528-68fa-ef11-bae2-6045bd9dd2bc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vgj_ordencompra" select="1" icon="1" preview="1">
+        <row name="result" id="vgj_ordenescomprasid">
+          <cell name="vgj_ordencompra" width="200" />
+          <cell name="vgj_proveedor" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="vgj_ordenescompras">
+          <attribute name="vgj_ordencompra" />
+          <attribute name="vgj_ordenescomprasid" />
+          <attribute name="vgj_proveedor" />
+          <link-entity name="vgj_proveedores" alias="aa" link-type="inner" from="vgj_proveedoresid" to="vgj_proveedor">
+            <filter type="and">
+              <condition attribute="vgj_proveedoresid" operator="eq" value="{cd09bc8f-86ef-ef11-be1f-6045bd97b8ed}" uiname="PRO001" uitype="vgj_proveedores" />
+            </filter>
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Alcance Subcontrata" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

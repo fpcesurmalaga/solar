@@ -1,0 +1,2 @@
+vgj_faltaentrega: =vgj_cantidad - vgj_unidadesentregadas
+vgj_importeeur: =vgj_cantidad * vgj_precio

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ec481e74-a789-4fa1-a504-23e2a776f520}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{47afeba0-c935-4429-8b01-ec0c7aa4a5b6}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1065045c-d00e-4831-9990-a4399139dcd3}">
+                  <labels>
+                    <label description="GENERAL" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d5f0a740-88ac-4986-bdcd-828e03dc35b1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Tipo" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_tipo" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="vgj_tipo" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5c62d385-779e-406f-842c-077c9bec69ef}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Orden Compra" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_ordencompra" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vgj_ordencompra" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{343c9542-3314-48f0-bb1b-78eced2e3e3c}">
+                        <labels>
+                          <label description="Referencia" languagecode="3082" />
+                          <label description="Referencia" languagecode="1033" />
+                        </labels>
+                        <control id="vgj_referencia" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vgj_referencia" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5c96ca9e-84b3-4723-8f65-38961046de80}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Proveedor Destino" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_proveedordestino" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vgj_proveedordestino" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7a57cba4-92b8-4599-a213-f343191c2387}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Proveedor Origen" languagecode="3082" />
+                        </labels>
+                        <control id="vgj_proveedororigen" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vgj_proveedororigen" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9f04f292-18e5-4496-b10b-c22787a418a9}" visible="false">
+                        <labels>
+                          <label description="Propietario" languagecode="3082" />
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+  </systemform>
+</forms>
